@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:300,400&subset=cyrillic" rel="stylesheet" type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link href="css/custom.css" rel="stylesheet">
     <link href="css/elastislide.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">    
     <link href="css/style.css" rel="stylesheet">
     <script src="js/modernizr.custom.17475.js"></script>
 
@@ -34,11 +34,11 @@
               <div class="dropdown pull-right">  
               <button type="button" class="btn btn-default navbar-btn" id="small-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-bars small-menu-btn" aria-hidden="true"></i></button>
               <ul class="dropdown-menu dropdown-small-menu" aria-labelledby="small-menu">
-                <li class="active small-menu-main"><a href="index.html">Главная</a></li>
+                <li class="small-menu-main"><a href="index.html">Главная</a></li>
                 <li class="small-menu-main"><a href="#">О партии</a></li>
-                <li class="small-menu-main"><a href="persons.html">Лица партии</a></li>
+                <li class="small-menu-main"><a href="person.html">Лица партии</a></li>
                 <li class="small-menu-main"><a href="regions.html">Регионы</a></li>
-                <li class="small-menu-main"><a href="news.html">Новости и статьи</a></li>
+                <li class="active small-menu-main"><a href="news.html">Новости и статьи</a></li>
                 <li class="small-menu-main"><a href="edition.html">Издания</a></li>
                 <li class="small-menu-main"><a href="#">Контакты</a></li>
                 <li class="small-menu-grey"><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil menu-icons" aria-hidden="true"></span> Задать вопрос</a></li>                
@@ -121,13 +121,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="main-menu">
               <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
                 <li><a href="#">О партии</a></li>
                 <li><a href="persons.html">Лица партии</a></li>
                 <li><a href="regions.html">Регионы</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="news.html">Новости и статьи</a></li>
+                <li class="active"><a href="news.html">Новости и статьи</a></li>
                 <li><a href="edition.html">Издания</a></li>
                 <li><a href="#">Контакты</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a></li>
@@ -332,7 +332,7 @@
           </div>                   
         </div>
       </div>
-    </div>  
+    </div> 
     <!-- /.Modal -->  
 
     <section class="main-content">
@@ -340,354 +340,249 @@
         <div class="row">
 
           <div class="col-md-9">
-            <div class="content">
-
-                <div class="content-carousel">
-                  <div id="carousel" class="carousel" data-ride="carousel">                  
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                      <div class="item active">
-                        <div class="bannerImage">
-                          <img src="img/main.jpg" alt="">
-                          <p class="label-press">Главное</p>
-                        </div>                 
-                        <div class="caption row">
-                        <div class="content-carousel-body col-xs-10 col-xs-offset-1">
-                          <h2><a href="">«Партия Возрождения России» определила цели партийного строительства</a></h2>
-                          <p>Заседание Президиума провёл председатель Центрального Совета и Президиума партии Игорь Ашурбейли.</p>
-                        </div>     
-                        </div>                                        
+            <div class="content"> 
+              <div class="content-block">
+                <ol class="breadcrumb hidden-xs">
+                  <li><a href="index.html">Главная</a></li>
+                  <li class="active">Поиск</li>
+                </ol>
+                <h2>Цитаты</h2>
+                <div class="content-block-body">                                
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
                       </div>
-                      <div class="item">
-                        <div class="bannerImage">
-                        <img src="img/main2.jpg" alt="">
-                        <p class="label-press">Главное</p>
-                        </div>                 
-                        <div class="caption row">
-                        <div class="content-carousel-body col-xs-10 col-xs-offset-1">
-                          <h2><a href="">«Партия Возрождения России» определила цели партийного строительства2</a></h2>
-                          <p>Заседание Президиума провёл председатель Центрального Совета и Президиума партии Игорь Ашурбейли.3</p>
-                        </div>     
-                        </div>                                        
-                      </div>
-                      <div class="item">
-                        <div class="bannerImage">
-                        <img src="img/main3.jpg" alt="">
-                        <p class="label-press">Главное</p>
-                        </div>                 
-                        <div class="caption row">
-                        <div class="content-carousel-body col-xs-10 col-xs-offset-1">
-                          <h2><a href="">«Партия Возрождения России» определила цели партийного строительства</a></h2>
-                          <p>Заседание Президиума провёл председатель Центрального Совета и Президиума партии Игорь Ашурбейли.</p>
-                        </div>     
-                        </div>                                        
-                      </div>
-                      <div class="item">
-                        <div class="bannerImage">
-                        <img src="img/main4.jpg" alt="">
-                        <p class="label-press">Главное</p>
-                        </div>                 
-                        <div class="caption row">
-                        <div class="content-carousel-body col-xs-10 col-xs-offset-1">
-                          <h2><a href="">«Партия Возрождения России» определила цели партийного строительства4</a></h2>
-                          <p>Заседание Президиума провёл председатель Центрального Совета и Президиума партии Игорь Ашурбейли.4</p>
-                        </div>     
-                        </div>                                        
-                      </div>
-                      <div class="item">
-                        <div class="bannerImage">
-                        <img src="img/main2.jpg" alt="">
-                        <p class="label-press">Главное</p>
-                        </div>                 
-                        <div class="caption row">
-                        <div class="content-carousel-body col-xs-10 col-xs-offset-1">
-                          <h2><a href="">«Партия Возрождения России» определила цели партийного строительства5</a></h2>
-                          <p>Заседание Президиума провёл председатель Центрального Совета и Президиума партии Игорь Ашурбейли.5</p>
-                        </div>     
-                        </div>                                        
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Игорь  Ашурбейли</p>
                       </div>
                     </div> 
-                    <!-- Indicators -->
-                    <ol class="content-carousel-indicators">
-                      <li data-target="#carousel" data-slide-to="0" class="active"><span>1</span></li>
-                      <li data-target="#carousel" data-slide-to="1"><span>2</span></li>
-                      <li data-target="#carousel" data-slide-to="2"><span>3</span></li>
-                      <li data-target="#carousel" data-slide-to="3"><span>4</span></li>
-                      <li data-target="#carousel" data-slide-to="4"><span>5</span></li>
-                    </ol>
-
-                  </div> <!-- /#carousel -->
-                </div><!-- /.content-carousel -->    
-
-                <div class="content-pub">
-                  <div class="content-pub-tabs">
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                      <li role="presentation" class="active"><a href="#publication" aria-controls="publication" role="tab" data-toggle="tab">Все публикации</a></li>
-                      <li role="presentation"><a href="#allnews" aria-controls="allnews" role="tab" data-toggle="tab">Новости ПВР</a></li>
-                      <li role="presentation"><a href="#announcement" aria-controls="announcement" role="tab" data-toggle="tab">Анонсы</a></li>
-                    </ul>
-
-<!-- for mobile
-<div class="visible-xs-block ">
-<p class="content-pub-allpub">
-  <a class="content-pub-mobile-publish" href="#publication" aria-controls="publication" role="tab" data-toggle="tab">Все публикации</a>
-  <a class="content-mobile-pub" role="button" data-toggle="collapse" href="#content-pub-mobile" aria-expanded="false" aria-controls="content-pub-mobile"><span class="glyphicon glyphicon-menu-down"></span></a>
- </p>
-<div class="collapse" id="content-pub-mobile">
-  <p><a href="#allnews" aria-controls="allnews" role="tab" data-toggle="tab">Новости ПВР</a></p>
-  <p><a href="#announcement" aria-controls="announcement" role="tab" data-toggle="tab">Анонсы</a></p>
-</div>
-</div> -->
-
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                      <div role="tabpanel" class="tab-pane active" id="publication">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <a href="#"><img src="img/main3.jpg" alt=""></a>
-                            <p class="content-pub-date">15 августа 2016</p>
-                            <p class="content-pub-h"><a href="#">«Золотые мальчики» снова взяли медали высшей пробы</a></p> 
-                            <p class="content-pub-text">Московские школьники завоевали «золото» на Международной математической олимпиаде</p>
-                          </div>
-                          <div class="col-sm-4 top-space">
-                            <a href="#"><img src="img/main2.jpg" alt=""></a>
-                            <p class="content-pub-date">12 августа 2016</p>
-                            <p class="content-pub-h"><a href="#">Из оборонки – в космос и политику</a></p> 
-                            <p class="content-pub-text">Через два месяца пройдут выборы  
-                            в Государственную думу. Список партий, допущенных к участию в них, будто бы уже сформирован. 
-                            Но, как оказалось, партийное строительство в стране 
-                            не останавливается</p>
-                          </div>
-                          <div class="col-sm-4 top-space">
-                            <a href="#"><img src="img/main.jpg" alt=""></a>
-                            <p class="content-pub-date">30 июля 2016</p>
-                            <p class="content-pub-h"><a href="#">«Граждане за себя»: сила простого человека</a></p> 
-                            <p class="content-pub-text">6 августа 2015 года на встрече думской фракции «Единой России» с Президентом страны Владимиром Путиным был поднят острейший вопрос – что делать 
-                              с неиспользуемыми землями сельскохозяйственного назначения.</p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="content-pub-all col-sm-12 text-right"><a href="#">Все материалы раздела</a></div>
-                        </div>
-                      </div>
-                      <div role="tabpanel" class="tab-pane" id="allnews">
-                        <div class="row">                          
-                          <div class="col-sm-4">
-                            <a href="#"><img src="img/main2.jpg" alt=""></a>
-                            <p class="content-pub-date">12 августа 2016</p>
-                            <p class="content-pub-h"><a href="#">Из оборонки – в космос и политику</a></p> 
-                            <p class="content-pub-text">Через два месяца пройдут выборы  
-                              в Государственную думу. Список партий, допущенных к участию в них, будто бы уже сформирован. 
-                              Но, как оказалось, партийное строительство в стране 
-                              не останавливается</p>
-                          </div>
-                          <div class="col-sm-4 top-space">
-                            <a href="#"><img src="img/main3.jpg" alt=""></a>
-                            <p class="content-pub-date">15 августа 2016</p>
-                            <p class="content-pub-h"><a href="#">«Золотые мальчики» снова взяли медали высшей пробы</a></p> 
-                            <p class="content-pub-text">Московские школьники завоевали «золото» на Международной математической олимпиаде</p>
-                          </div>
-                          <div class="col-sm-4 top-space">
-                            <a href="#"><img src="img/main.jpg" alt=""></a>
-                            <p class="content-pub-date">30 июля 2016</p>
-                            <p class="content-pub-h"><a href="#">«Граждане за себя»: сила простого человека</a></p> 
-                            <p class="content-pub-text">6 августа 2015 года на встрече думской фракции «Единой России» с Президентом страны Владимиром Путиным был поднят острейший вопрос – что делать 
-                              с неиспользуемыми землями сельскохозяйственного назначения.</p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="content-pub-all col-sm-12 text-right"><a href="#">Все материалы раздела</a></div>
-                        </div>
-                      </div>
-                      <div role="tabpanel" class="tab-pane" id="announcement">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <a href="#"><img src="img/main.jpg" alt=""></a>
-                            <p class="content-pub-date">30 июля 2016</p>
-                            <p class="content-pub-h"><a href="#">«Граждане за себя»: сила простого человека</a></p> 
-                            <p class="content-pub-text">6 августа 2015 года на встрече думской фракции «Единой России» с Президентом страны Владимиром Путиным был поднят острейший вопрос – что делать 
-                              с неиспользуемыми землями сельскохозяйственного назначения.</p>
-                          </div>                          
-                          <div class="col-sm-4 top-space">
-                            <a href="#"><img src="img/main2.jpg" alt=""></a>
-                            <p class="content-pub-date">12 августа 2016</p>
-                            <p class="content-pub-h"><a href="#">Из оборонки – в космос и политику</a></p> 
-                            <p class="content-pub-text">Через два месяца пройдут выборы  
-                                в Государственную думу. Список партий, допущенных к участию в них, будто бы уже сформирован. 
-                                Но, как оказалось, партийное строительство в стране 
-                                не останавливается</p>
-                          </div>
-                          <div class="col-sm-4 top-space">
-                            <a href="#"><img src="img/main3.jpg" alt=""></a>
-                            <p class="content-pub-date">15 августа 2016</p>
-                            <p class="content-pub-h"><a href="#">«Золотые мальчики» снова взяли медали высшей пробы</a></p> 
-                            <p class="content-pub-text">Московские школьники завоевали «золото» на Международной математической олимпиаде</p>
-                          </div>                          
-                        </div>
-                        <div class="row">
-                            <div class="content-pub-all col-sm-12 text-right"><a href="#">Все материалы раздела</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /.content-pub -->              
-
-                <div class="content-options hidden-xs"> 
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <p class="content-options-text"><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Поддержать партию</a></p>
-                      </div>
-                      <div class="separate col-sm-4">
-                        <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-news"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Прислать новость</a></p>
-                      </div>
-                      <div class="col-sm-4">
-                        <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Задать вопрос</a></p>
-                      </div>
-                    </div>                  
-                </div><!-- /.content-options -->   
-
-                <div class="content-options visible-xs-block"> 
-                    <p class="content-options-text"><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Поддержать партию</a></p>                              
-                </div><!-- /.content-options visible-xs-block-->            
-
-                <div class="content-quote">
-                  <div class="media hidden-xs">
-                    <div class="media-left media-top img-block">
-                      <a href="#">
-                        <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
-                      </a>
-                    </div>
-                    <div class="media-body">
+                    <div class="media visible-xs-block">
                       <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                      <p class="media-quote-name">Игорь  Ашурбейли</p>
-                    </div>
-                  </div> 
-                  <div class="media visible-xs-block">
-                    <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                    <div class="media-left media-middle img-block">
-                      <a href="#">
-                        <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
-                      </a>
-                    </div>
-                    <div class="media-body media-middle">
-                      <p class="media-quote-name">Игорь  Ашурбейли</p>
-                    </div>
-                  </div>            
-
-                </div><!--/.content-quote-->
-
-                <div class="content-options visible-xs-block"> 
-                    <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-news"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Прислать новость</a></p>                             
-                </div><!-- /.content-options visible-xs-block--> 
-              
-                <div class="content-edition">
-                    <h3>Издания</h3>
-                    <ul id="elastislide2" class="elastislide-list">
-                      <li>
-                        <div class="content-edition-body">   
-                          <a href="#"><img src="img/ed1.png" alt="Сайт Президента России"></a>                      
-                          <p class="item-name"><a href="#">Газета «Россия»</a></p> 
-                          <p>№1 (946) 14-20 июля<br>2016 года</p>
-                        </div>                       
-                      </li>  
-                      <li>
-                        <div class="content-edition-body">
-                          <a href="#"><img src="img/ed2.png" alt="Сайт Президента России"></a>
-                          <p class="item-name"><a href="#">Книга «Геннадий<br>Селезнёв. Прямая речь»</a></p>    
-                          <p>Книга посвящена памяти<br>видного политического<br>деятеля, товарища<br>и соратника</p> 
-                        </div>                   
-                      </li>
-                      <li>
-                        <div class="content-edition-body">
-                          <a href="#"><img src="img/ed3.png" alt="Сайт Президента России"></a>
-                          <p class="item-name"><a href="#">Журнал «Возрождение<br>России»</a></p>
-                          <p>Общественно-политический<br>журнал</p>     
-                        </div>                   
-                      </li>                      
-                      <li>
-                        <div class="content-edition-body">   
-                          <a href="#"><img src="img/ed1.png" alt="Сайт Президента России"></a>                      
-                          <p class="item-name"><a href="#">Газета «Россия»</a></p> 
-                          <p>№1 (946) 14-20 июля<br>2016 года</p>
-                        </div>                       
-                      </li>  
-                      <li>
-                        <div class="content-edition-body">
-                          <a href="#"><img src="img/ed2.png" alt="Сайт Президента России"></a>
-                          <p class="item-name"><a href="#">Книга «Геннадий<br>Селезнёв. Прямая речь»</a></p>    
-                          <p>Книга посвящена памяти<br>видного политического<br>деятеля, товарища<br>и соратника</p> 
-                        </div>                   
-                      </li>
-                      <li>
-                        <div class="content-edition-body">
-                          <a href="#"><img src="img/ed3.png" alt="Сайт Президента России"></a>
-                          <p class="item-name"><a href="#">Журнал «Возрождение<br>России»</a></p>
-                          <p>Общественно-политический<br>журнал</p>     
-                        </div>                   
-                      </li>
-                      <li>
-                        <div class="content-edition-body">
-                          <a href="#"><img src="img/ed2.png" alt="Сайт Президента России"></a>
-                          <p class="item-name"><a href="#">Книга «Геннадий<br>Селезнёв. Прямая речь»</a></p>    
-                          <p>Книга посвящена памяти<br>видного политического<br>деятеля, товарища<br>и соратника</p> 
-                        </div>                   
-                      </li>
-                      <li>
-                    </ul>                
-                </div><!--/.content-edition -->   
-
-                <div class="content-options visible-xs-block"> 
-                    <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Задать вопрос</a></p>                              
-                </div><!-- /.content-options visible-xs-block--> 
-          
-                <div class="content-foto">
-                  <div class="row">
-                    <div class="content-foto-box col-lg-5 col-lg-push-7 col-sm-6 col-sm-push-6 clearfix">
-                      <div class="row">
-                        <div class="col-xs-4 foto-gallery clearfix">
-                          <img alt="" src="img/foto1.png">
-                          <img alt="" src="img/foto2.png">
-                          <img alt="" src="img/foto3.png">
-                          <img alt="" src="img/foto4.png">
-                        </div>
-                        <div class="col-xs-4 foto-gallery clearfix">
-                          <img alt="" src="img/foto5.png">
-                          <img alt="" src="img/foto6.png">
-                          <img alt="" src="img/foto7.png">
-                          <img alt="" src="img/foto8.png">
-                        </div>
-                        <div class="col-xs-4 foto-gallery clearfix">
-                          <img alt="" src="img/foto9.png">
-                          <img alt="" src="img/foto10.png">
-                          <img alt="" src="img/foto11.png">
-                          <img alt="" src="img/foto12.png">
-                        </div>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Игорь  Ашурбейли</p>
                       </div>
                     </div>
-                    <div class="foto-content col-lg-7 col-lg-pull-5 col-sm-6 col-sm-pull-6">
-                      <h3>Фотоконкурс</h3>
-                      <p class="foto-bold">Люди. Город. Страна</p>
-                      <p class="foto-date"><span>с 01.11.2017 по 01.03.2017</span></p>
-                      <p>Победители получат билеты на Чемпионат Мира по футболу в 2018 году, который будет проходить в России</p>
-                      <p class="foto-red">Номинации:</p>
-                      <div>
-                        <p class="foto-tags pull-left"><a href="#">природа</a></p>
-                        <p class="foto-tags pull-left"><a href="#">архитектура</a></p>
-                        <p class="foto-tags pull-left"><a href="#">портреты</a></p>
-                        <p class="foto-tags pull-left"><a href="#">история</a></p>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/images/img9.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
                       </div>
-                    </div>                    
-                  </div>                  
-                </div><!--/.content-foto-->               
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/images/img9.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/images/img10.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Владимир Васильев</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/images/img10.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Владимир Васильев</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/images/img11.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Николай Харитонов</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/images/img11.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Николай Харитонов</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/images/img9.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/images/img9.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/images/img10.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Владимир Васильев</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/images/img10.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Владимир Васильев</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/images/img11.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Николай Харитонов</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/images/img11.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Николай Харитонов</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <div class="citation-content">
+                    <div class="media hidden-xs">
+                      <div class="media-left media-top img-block">
+                        <a href="#">
+                          <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                      </div>
+                    </div> 
+                    <div class="media visible-xs-block">
+                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <div class="media-left media-middle img-block">
+                        <a href="#">
+                          <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                      </div>
+                    </div>
+                  </div><!--/.citation-content-->
+                  <nav aria-label="Page navigation">
+                    <ul class="pagination">                  
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">9</a></li>
+                  </ul>
+                </nav>
+                </div><!-- /.content-block-body -->
+              </div> <!-- /.content-box -->
             </div><!-- /.content -->
           </div>
 
           <div class="col-md-3">
-            <div class="sidebar">
+            <div class="sidebar hidden-sm hidden-xs">
               <div class="row">
-                <div class="col-md-12 col-sm-6">
+                <div class="col-md-12">
                   <div class="widget">
                     <a class="btn btn-default btn-red" href="#" role="button">Вступить в партию</a>
                     <div class="widget-text">
@@ -705,8 +600,8 @@
                       <p>
                     </div>
                   </div>
-                </div>             
-                <div class="col-md-12  col-sm-6">
+                </div>  
+                <div class="col-md-12">
                   <div class="sidebar-item item-person">
                     <a href="#"><img class="img-circle" src="img/person2.jpg" alt="Геннадий Селезнёв"></a>
                     <p class="date">1947-2015</p>
@@ -714,9 +609,7 @@
                     <p class="info">основатель Партии Возрождения России</p>
                   </div>
                 </div>
-              </div><!-- /.row -->
-              <div class="row">
-                <div class="col-md-12  col-sm-6">
+                <div class="col-md-12">
                   <div class="sidebar-item">
                     <h3>Анонсы</h3>
                     <div>
@@ -732,20 +625,22 @@
                       <p class="item-date">30 октября 2016</p>
                     </div>                    
                   </div>
+                </div> 
+                <div class="col-xs-12">
+                    <div class="content-options"> 
+                      <p class="content-options-text"><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Поддержать партию</a></p>                              
+                    </div><!-- /.content-options -->
                 </div>
-                <div class="col-md-12  col-sm-6">
+                <div class="col-md-12">
                   <div class="item-person2">
-                    <img class="img-person" src="img/person3.jpg" alt="Геннадий Селезнёв">
+                    <img class="img-person" src="img/images/img4.jpg" alt="Геннадий Селезнёв">
                     <div>
-                      <p class="item-name"><a href="#">Из оборонки – в космос и политику</a></p>
-                      <p class="item-info">Интервью И.Р. Ашурбейли. Опубликовано в газете «Аргументы недели»</p>
+                      <p class="item-name"><a href="#">Партия Возрождения России» определила цели партийного строительства</a></p>
                     </div>
                     <p class="label-press">Пресса</p>
                   </div>
                 </div>
-              </div><!-- /.row -->
-              <div class="row">
-                <div class="col-md-12  col-sm-6">
+                <div class="col-md-12">
                   <div class="sidebar-item">
                     <h3>А вы что думаете?</h3>
                     <div>
@@ -777,8 +672,8 @@
                       <button type="submit" class="btn btn-default btn-red">Голосовать</button>
                     </div>  
                   </div>
-                </div>             
-                <div class="col-md-12  col-sm-6">
+                </div>
+                <div class="col-md-12">
                   <div class="sidebar-item">
                     <h3>Выбор читателей</h3> 
                     <div class="section-table">
@@ -818,9 +713,7 @@
                     <p class="selection-top"><a href="#">Топ 50</a></p>                   
                   </div>
                 </div>
-              </div><!-- /.row -->
-              <div class="row">
-                <div class="col-md-12  col-sm-6">
+                <div class="col-md-12">
                   <div class="widget clearfix">
                     <p class="widget-tags pull-left"><a href="#">политика</a></p>
                     <p class="widget-tags pull-left"><a href="#">общество</a></p>
@@ -837,8 +730,8 @@
                     <p class="widget-tags pull-left"><a href="#">Дагестан</a></p>
                     <p class="widget-tags pull-left"><a href="#">молодёжь</a></p>
                   </div>
-                </div>       
-                <div class="col-md-12  col-sm-6">
+                </div>              
+                <div class="col-md-12">
                   <div class="sidebar-item item-stock">
                     <h3>Склад</h3>
                     <div class="item-question img-circle" data-container="body" data-toggle="tooltip" data-placement="right" data-title="Адрес: Москва, Ленинградскай проспект, д. 80"><span>?</span></div>
@@ -864,141 +757,27 @@
                     </div>                   
                   </div>
                 </div>
-              </div><!-- /.row -->
+                <div class="col-md-12">
+                  <div class="item-person2">
+                    <img class="img-person" src="img/images/img5.jpg" alt="Геннадий Селезнёв">
+                    <div>
+                      <p class="item-name"><a href="#">«Патриоты России» утвердили списки кандидатов на выборы в Госдуму</a></p>
+                    </div>
+                    <p class="label-press">Выбор редакции</p>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="content-options"> 
+                    <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-news"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Прислать новость</a></p>                             
+                  </div><!-- /.content-options--> 
+                </div>
+              </div>
             </div><!-- /.sidebar --> 
           </div>
 
         </div>
       </div><!-- /.container -->
     </section><!-- /.main-content -->
-
-    <section class="bottom-content"> 
-      
-      <div class="bottom-slider">
-        <div class="container">
-        <h3>Друзья и партнёры</h3>
-        <ul id="partnerslide" class="elastislide-list">
-          <li>
-           <div class="media">
-            <div class="media-left media-middle bottom-slider-img">
-              <a href="#">
-              <img class="media-object" src="img/partner1.png" alt="Сайт Президента России">
-              </a>
-            </div>
-            <div class="media-body media-middle">
-              <p class="item-name"><a href="#">Сайт Президента<br>России</a></p> 
-            </div>
-           </div> 
-          </li>
-          <li>
- <div class="media">
-  <div class="media-left media-middle bottom-slider-img">
-    <a href="http://www.ashurbeyli.ru/">
-      <img class="media-object" src="img/partner2.png" alt="Личный сайт И.Р. Ашурбейли">
-    </a>
-  </div>
-  <div class="media-body media-middle">
-    <p class="item-name"><a href="http://www.ashurbeyli.ru/">Личный сайт<br>И.Р. Ашурбейли</a></p> 
-  </div>
- </div> 
-          </li>
-          <li>
- <div class="media">
-  <div class="media-left media-middle bottom-slider-img">
-    <a href="#">
-    <img class="media-object" src="img/partner3.png" alt="Совет Федерации">
-    </a>
-  </div>
-  <div class="media-body media-middle">
-    <p class="item-name"><a href="#">Совет Федерации</a></p> 
-  </div>
- </div> 
-          </li>
-          <li>
- <div class="media">
-  <div class="media-left media-middle bottom-slider-img">
-    <a href="#">
-    <img class="media-object" src="img/partner4.png" alt="Московская городская дума">
-    </a>
-  </div>
-  <div class="media-body media-middle">
-    <p class="item-name"><a href="#">Московская<br>городская дума</a></p> 
-  </div>
- </div> 
-          </li>
-          <li>
-           <div class="media">
-            <div class="media-left media-middle bottom-slider-img">
-              <a href="http://www.ashurbeyli.ru/">
-                <img class="media-object" src="img/partner2.png" alt="Личный сайт И.Р. Ашурбейли">
-              </a>
-            </div>
-            <div class="media-body media-middle">
-              <p class="item-name"><a href="http://www.ashurbeyli.ru/">Личный сайт<br>И.Р. Ашурбейли</a></p> 
-            </div>
-          </div> 
-        </li>
-        <li>
-         <div class="media">
-          <div class="media-left media-middle bottom-slider-img">
-            <a href="#">
-              <img class="media-object" src="img/partner3.png" alt="Совет Федерации">
-            </a>
-          </div>
-          <div class="media-body media-middle">
-            <p class="item-name"><a href="#">Совет Федерации</a></p> 
-          </div>
-        </div> 
-      </li>
-      <li>
-       <div class="media">
-        <div class="media-left media-middle bottom-slider-img">
-          <a href="#">
-            <img class="media-object" src="img/partner4.png" alt="Московская городская дума">
-          </a>
-        </div>
-        <div class="media-body media-middle">
-          <p class="item-name"><a href="#">Московская<br>городская дума</a></p> 
-        </div>
-      </div> 
-    </li>
-        </ul>     
-        </div>    
-      </div><!--/.bottom-slider-->
-
-      <div class="map">
-        <div class="container">          
-          <p class="map-link hidden-xs">
-            <a class="active" href="#">Офис в Москве</a>
-            <a href="regions.html">Представительства в регионах</a>
-          </p>
-          <div class="map-link-xs visible-xs-block">
-            <a class="active-xs" role="button" data-toggle="collapse" href="#map-link-addr" aria-expanded="false" aria-controls="map-link-addr">Офис в Москве <span class="glyphicon glyphicon-menu-down"></span></a>
-            <div class="collapse" id="map-link-addr">
-              <a href="regions.html">Представительства в регионах</a>
-            </div>
-          </div>
-          </div>            
-          <button type="button" class="map-btn hidden-xs" data-container="body" data-toggle="popover" data-placement="right" data-html="true"></button>
-          <div id="popover-content" class="hide">
-            <p><span>Адрес:</span> Москва, Ленинградскай проспект, д. 80</p>
-            <p><span>Для писем:</span> Москва, Сущёвский вал, д. 5, стр. 2</p>
-            <p><span>Телефоны:</span> +7 (499) 654 0039,  +7 (495) 626 6886</p>
-          </div>
-          <div class="visible-xs-block map-xs"><img src="img/logo2.png" alt=""></div>  
-        </div>
-      </div><!--/.map-->
-
-      <div class="map-address visible-xs-block">
-        <div class="container">
-          <div class="map-address-block">
-            <p><span>Адрес:</span> Москва, Ленинградскай проспект, д. 80</p>
-            <p><span>Для писем:</span> Москва, Сущёвский вал, д. 5, стр. 2</p>
-            <p><span>Телефоны:</span> +7 (499) 654 0039,  +7 (495) 626 6886</p>
-          </div> 
-        </div>
-      </div>
-    </section><!-- /.bottom-content -->
 
     <footer id="bottom-menu">
       <div class="container">
@@ -1124,12 +903,45 @@
       </div>
     </footer>
 
-  
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/jquerypp.custom.js"></script>
   <script src="js/jquery.elastislide.js"></script>
   <script src="js/scripts.js"></script>
+  <script type="text/javascript">
+      
+      var current = 0,
+        $preview = $( '#preview' ),
+        $carouselEl = $( '#news-carousel' ),
+        $carouselItems = $carouselEl.children(),
+        carousel = $carouselEl.elastislide( {
+          current : current,
+          minItems : 3,
+          onClick : function( el, pos, evt ) {
+
+            changeImage( el, pos );
+            evt.preventDefault();
+
+          },
+          onReady : function() {
+
+            changeImage( $carouselItems.eq( current ), current );
+            
+          }
+        } );
+
+      function changeImage( el, pos ) {
+
+        $preview.attr( 'src', el.data( 'preview' ) );
+        $carouselItems.removeClass( 'current-img' );
+        el.addClass( 'current-img' );
+        carousel.setCurrent( pos );
+
+      }
+
+    </script>
 
   </body>
 </html>

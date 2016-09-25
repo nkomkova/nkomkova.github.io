@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Официальный сайт Партии Возрождения России</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:300,400&subset=cyrillic" rel="stylesheet" type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="css/elastislide.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">    
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/modernizr.custom.17475.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="top-name hidden-xs">
+        <h1>Официальный сайт Партии Возрождения России</h1>
+      </div><!-- /.top-name -->
+
+      <div class="small-menu visible-xs-block">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html"><img alt="ПВР" src="img/logo2.jpg"></a>
+              <h1 class="navbar-text">Официальный сайт<br>Партии Возрождения России</h1>
+              <div class="dropdown pull-right">  
+              <button type="button" class="btn btn-default navbar-btn" id="small-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-bars small-menu-btn" aria-hidden="true"></i></button>
+              <ul class="dropdown-menu dropdown-small-menu" aria-labelledby="small-menu">
+                <li class="small-menu-main"><a href="index.html">Главная</a></li>
+                <li class="small-menu-main"><a href="#">О партии</a></li>
+                <li class="small-menu-main"><a href="persons.html">Лица партии</a></li>
+                <li class="small-menu-main"><a href="#regions.html">Регионы</a></li>
+                <li class="active small-menu-main"><a href="news.html">Новости и статьи</a></li>
+                <li class="small-menu-main"><a href="edition.html">Издания</a></li>
+                <li class="small-menu-main"><a href="#">Контакты</a></li>
+                <li class="small-menu-grey"><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil menu-icons" aria-hidden="true"></span> Задать вопрос</a></li>                
+                <li class="small-menu-grey"><a href="#" data-toggle="modal" data-target=".modal-phone"><span class="glyphicon glyphicon-phone menu-icons" aria-hidden="true"></span> Позвонить через сайт</a></li>
+                <li class="small-menu-grey clearfix"><a class="navbar-enter" href="#" data-toggle="modal" data-target=".modal-enter"><span class="glyphicon glyphicon-user menu-icons" aria-hidden="true"></span> Вход <span class="sl">/&nbsp;</span></a><a href="#" class="navbar-registration" data-toggle="modal" data-target=".modal-registration">Регистрация</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown">
+                  <a data-target="#" href="#" class="dropdown-toggle" id="dropdown-color" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i class="fa fa-circle red" aria-hidden="true"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-color-menu" aria-labelledby="dropdown-color">
+                    <li><a href="#"><i class="fa fa-circle green" aria-hidden="true"></i></a></li>
+                  </ul>
+                </li>                
+              </ul>
+              </div> 
+              <div class="pull-right">
+              <button type="submit" data-toggle="modal" data-target=".modal-search" class="btn btn-default navbar-btn pull-right small-menu-seach" name="search"><span class="glyphicon glyphicon-search menu-icons"></span></button>
+              </div>
+            </div>
+            
+            </div><!-- /.container -->
+          </nav>
+        </div><!-- /.small-name -->
+
+      <div class="menu-top hidden-xs">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display 
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-top" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div> -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu-top">
+              <ul class="nav navbar-nav">
+                <li><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil menu-icons" aria-hidden="true"></span> Задать вопрос</a></li>
+                <li><a href="#" data-toggle="modal" data-target=".modal-phone"><span class="glyphicon glyphicon-phone menu-icons" aria-hidden="true"></span> Позвонить через сайт</a></li>
+              </ul>             
+              <ul class="nav navbar-nav navbar-right navbar-dropdown">
+                <li class="dropdown">
+                  <a data-target="#" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-circle red" aria-hidden="true"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-circle green" aria-hidden="true"></i></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right" method="get" action="">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Поиск">
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default" name="search"><span class="glyphicon glyphicon-search menu-icons"></span></button>
+                  </span>
+                </div>                  
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="navbar-enter" href="#" data-toggle="modal" data-target=".modal-enter"><span class="glyphicon glyphicon-user menu-icons" aria-hidden="true"></span> Вход <span class="sl">/&nbsp;</span></a></li>
+                <li><a href="#" class="navbar-registration" data-toggle="modal" data-target=".modal-registration">Регистрация</a></li> 
+              </ul> 
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div><!-- /.menu-top -->
+
+      <div class="main-menu hidden-xs">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button> -->
+              <a class="navbar-brand" href="index.html"><img class="img-circle" src="img/logo1.png" alt="ПВР"></a>
+            </div>    
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-menu">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="#">О партии</a></li>
+                <li><a href="persons.html">Лица партии</a></li>
+                <li><a href="regions.html">Регионы</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="news.html">Новости и статьи</a></li>
+                <li><a href="edition.html">Издания</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a></li>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div><!-- /.mane-menu -->      
+    </header>
+
+    <!-- Modal -->
+    <!-- Мобильный поиск -->
+    <div class="modal fade modal-search" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <form class="navbar-form navbar-right" method="get" action="">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Поиск">
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default modal-button-search" name="search"><span class="glyphicon glyphicon-search menu-icons"></span></button>
+                  </span>
+                </div>                  
+              </form>
+          </div>                  
+        </div>
+      </div>
+    </div>
+    <!-- Задать вопрос -->
+    <div class="modal fade modal-question" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Задать вопрос</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="modalQuestionName" placeholder="Имя">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="modalQuestionEmail" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-textaria" rows="3" name="text" id="modalQuestionText" placeholder="Текст"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default btn-red modal-btn">Отправить</button>
+            </form>
+          </div> 
+          <div class="modal-footer clearfix">
+          </div>                   
+        </div>
+      </div>
+    </div>
+    <!-- Подпишитесь на наши новости -->
+    <div class="modal fade modal-subscribe" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Подпишитесь на наши новости!</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="modalSubscribeName" placeholder="Ваше имя">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="modalSubscribeEmail" placeholder="E-mail">
+              </div>
+              <button type="submit" class="btn btn-default btn-red modal-btn">Подписаться</button>
+            </form>
+          </div> 
+          <div class="modal-footer clearfix">
+          </div>                   
+        </div>
+      </div>
+    </div>
+    <!-- Позвонить через сайт -->
+    <div class="modal fade modal-phone" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Оставьте Ваш номер телефона</h4>
+            <p>Мы перезвоним Вам в ближайшее время</p>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="modalPhoneName" placeholder="Ваше имя">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" name="phone" id="modalPhoneEmail" placeholder="Ваш номер телефона">
+              </div>
+              <button type="submit" class="btn btn-default btn-red modal-btn">Отправить</button>
+            </form>
+          </div> 
+          <div class="modal-footer clearfix">
+          </div>                   
+        </div>
+      </div>
+    </div>
+    <!-- Регистрация -->
+    <div class="modal fade modal-registration" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Регистрация</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="modalRegistrationName" placeholder="Ваше имя">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="modalRegistrationEmail" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="password" id="modalRegistrationPassword" placeholder="Пароль">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="password" id="modalRegistrationPassword" placeholder="Повторите пароль">
+              </div>
+              <button type="submit" class="btn btn-default btn-red modal-btn">Зарегистрироваться</button>
+            </form>
+          </div> 
+          <div class="modal-footer modal-footer-registration clearfix">
+            <p>Войти через социальную сеть:</p>
+            <a href="#"><img src="img/vk2.png" alt="ВКонтакте"></a>
+            <a href="#"><img src="img/fb2.png" alt="Facebook"></a>
+            <a href="#"><img src="img/tw2.png" alt="Twitter"></a>
+            <a href="#"><img src="img/ok2.png" alt="Одноклассники"></a>
+            <a href="#"><img src="img/g2.png" alt="Google+"></a>
+          </div>                   
+        </div>
+      </div>
+    </div>
+    <!-- Вход -->
+    <div class="modal fade modal-enter" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Вход</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="modalEnterName" placeholder="Логин">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="password" id="modalEnterPassword" placeholder="Пароль">
+              </div>
+              <button type="submit" class="btn btn-default btn-red modal-btn">Войти</button>
+              <p><a href="#">Забыли пароль?</a></p>
+            </form>
+          </div> 
+          <div class="modal-footer modal-footer-registration clearfix">
+            <p>Войти через социальную сеть:</p>
+            <a href="#"><img src="img/vk2.png" alt="ВКонтакте"></a>
+            <a href="#"><img src="img/fb2.png" alt="Facebook"></a>
+            <a href="#"><img src="img/tw2.png" alt="Twitter"></a>
+            <a href="#"><img src="img/ok2.png" alt="Одноклассники"></a>
+            <a href="#"><img src="img/g2.png" alt="Google+"></a>
+          </div>                   
+        </div>
+      </div>
+    </div>
+    <!-- Прислать новость -->
+    <div class="modal fade modal-news" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Прислать новость</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="modalNewsName" placeholder="Имя">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="modalNewsEmail" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="header" id="modalNewsHeader" placeholder="Заголовок">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-textaria" rows="3" name="text" id="modalNewsText" placeholder="Текст"></textarea>
+              </div>
+              <div class="form-group">
+                <label class="addfoto" for="modalInputFile"><img src="img/icon5.png" alt="">Добавить фото</label>
+                <input class="input-addfoto" type="file" id="modalInputFile">
+              </div>
+              <button type="submit" class="btn btn-default btn-red modal-btn">Отправить</button>
+            </form>
+          </div> 
+          <div class="modal-footer clearfix">
+          </div>                   
+        </div>
+      </div>
+    </div>  
+
+    <!-- /.Modal -->  
+
+    <section class="main-content">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-9">
+            <div class="content"> 
+              <div class="content-box">
+                <ol class="breadcrumb hidden-xs">
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li class="active">Из оборонки - в космос и политику</li>
+                </ol>
+                <div class="article-header">
+                  <h2>Из оборонки – в космос и политику</h2>
+                  <p class="article-header-text">Через два месяца пройдут выборы в Государственную думу. Список партий, допущенных к участию в них, будто бы уже сформирован. Но, как оказалось, партийное строительство в стране не останавливается.</p>
+                  <p class="article-header-date pull-left">18 сентября 2016, 15:00<br>Дата события: 16 сентября 2016</p>
+                  <p class="pull-right"><a class="clearfix" href="#"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></p>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="article-main-img">
+                  <img src="img/images/img1.jpg" alt="">
+                  <a class="share-link" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                </div>
+                <div class="article-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>Появляются новые партии, второе дыхание обретают уже известные. Одна из них «Партия Возрождения России», созданная ушедшим ровно год назад из жизни экс-председателем Госдумы Геннадием Николаевичем Селезнёвым.</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="article-body-incut">
+                        <img class="img-circle" src="img/images/img6.png" alt="">
+                        <p>«Партия Возрождения<br>России» выбрала<br>нового лидера<br><span>30 октября 2016</span></p>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <p>Второе дыхание партии призван дать его давний товарищ и соратник, бывший руководитель знаменитого оборонного концерна воздушно-космической обороны «Алмаз-Антей» Игорь Ашурбейли. С ним встретился главный редактор газеты «Аргументы Недели» Андрей Угланов.</p>
+                      <p class="article-body-bold">– Игорь Рауфович, «на носу» очередные судьбоносные выборы в Госдуму. Началась небывалая активность партий по выдвижению своих кандидатов.<br>Недавно услышал, что и Вы имеете самое непосредственное отношение к партии, которую создал Геннадий Николаевич Селезнёв. Его уже год как с нами нет, но партия вдруг стала возрождаться уже без её создателя. Это слухи или что-то реальное?</p>
+                      <p>– Нет. Это не слухи. Геннадий Николаевич два созыва возглавлял нашу Госдуму, а целых четыре созыва был её депутатом. «Партия Возрождения России» – его детище.</p>
+                      <p class="article-body-bold">– Как Вы оказались связаны с этой партией?</p>
+                    </div>                    
+                    <div class="col-md-6">
+                      <div class="article-body-incut">
+                        <img class="img-circle" src="img/images/img8.png" alt="">
+                        <p>Один год без Геннадия<br>Николаевича<br>Селезнёва<br><span>30 октября 2016</span></p>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <p>– Объясняется это исключительно моими личными, причём внепартийными отношениями с Геннадием Николаевичем Селезнёвым. Если бы это был какой-то другой человек или другая партия, наверное, я никогда не представил бы себя в роли участника партстроительства. Даже в планах у меня этого не было.</p>
+                    </div>
+                    <div class="col-md-12">
+                      <p>Но с 1996 года я был знаком с Селезнёвым, и это знакомство перешло потом в серьёзное товарищество. Когда он уже возглавил Государственную думу, не раз бывал у меня на предприятии НПО «АЛМАЗ» имени академика А. А. Расплетина и не раз встречался с коллективом. Затем он был одним из вдохновителей создания газеты «Военно-промышленный курьер».</p>
+                      <p>Я, в свою очередь, помогал парламентской газете «Россия», которую в тяжёлые для неё времена приобрёл и ныне передал «Партии Возрождения России». Сотрудничали и по организованным Геннадием Николаевичем Ялтинскому кинофестивалю «Вместе», и по конно-спортивным соревнованиям по конкуру «Виват, Россия!».</p>
+                      <p>Некоторое время я был его заместителем в движении «Россия». Это не партия, а общественная организация, которой около 15 лет.</p>
+                      <p>В последний год он привлёк меня и к вопросам своей «Партии Возрождения России», хотя при этом я не был членом партии. Просто помогал Геннадию Николаевичу организовывать выборную кампанию прошлого года. Но получилось так, что его партийное наследство осталось без руководителя и моя память о нём не позволила просто бросить это его последнее начинание. Игорь Ашурбейли единогласно избран председателем Центрального Совета «Партии Возрождения России»</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>И вот на последнем внеочередном съезде партии, который прошёл 17 июня в Доме журналиста, где традиционно проходили съезды «Партии Возрождения России», 53 региона России тайным голосованием и единогласно избрали новый Центральный Совет партии и меня его председателем. Игорь Ашурбейли избран председателем Президиума «Партии Возрождения России»</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="article-body-incut2">
+                        <p>Игорь Ашурбейли единогласно избран председателем Центрального Совета «Партии Возрождения России»<br><span>30 октября 2016</span></p>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-6">
+                    <div class="article-body-incut2">
+                      <p>Игорь Ашурбейли избран председателем Президиума «Партии Возрождения России»<br><span>30 октября 2016</span></p>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                      <p>21 июня избранный съездом Президиум партии избрал меня ещё и председателем Президиума. Это не означает, что я занял место Геннадия Николаевича – лидера партии, как записано в её уставе. Я председатель Центрального Совета и Президиума партии, по-старому что-то вроде секретаря партии, членом которой, собственно, стал только в день съезда.</p>
+                    </div>
+                    <div class="col-md-12">
+                      <p class="article-body-bold">– Будете участвовать в сентябрьских выборах в Госдуму?</p>
+                      <p>– Президиум прошёл только 21 июня, и суетиться в оставшиеся два месяца не нужно, да и преждевременно. Поэтому в сентябре мы поучаствуем только в региональных выборах в ряде заксобраний и выборах на уровне городов. А по итогам, когда будет понятна новая политическая палитра России, соберём в конце сентября заседание Центрального Совета и Президиума партии. И только после этого займёмся серьёзным переформатированием партии и подготовкой к следующим выборам в Госдуму.</p>
+                      <p>Как подсказывает интуиция, они пройдут до конца 2018 года: может случиться так, что новая Госдума не проживёт свой полный срок. Поэтому на среднесрочную перспективу будем готовиться к концу 2018 года, когда пройдут президентские выборы и станет известен состав нового правительства. А в долгосрочной перспективе пойдём на следующие выборы в Госдуму, если не будет досрочных.</p>
+                    
+                      <blockquote>
+                        <p class="blockquote-body">В моих действиях отсутствует корысть, отсутствует политизированность. То есть передо мной не стоит  выбор – за белых или за красных, за Путина или против Путина. Я не играю в идеологию. Не играю в оппозицию.</p>
+                        <p class="blockquote-footer">Игорь Рауфович Ашурбейли</p>
+                      </blockquote>
+                    
+                      <p>Ещё раз подчеркну – я ни в коем случае не лидер партии. Мы будем либо воспитывать этого нового лидера внутри партии, либо найдём во внешнем мире.</p>
+                      <p>Лично я категорически не имею ни малейшего желания или намерения идти ни в Государственную думу, ни в правительственные органы. Мне интересна сама идея структуризации гражданского общества, сама идея построения в стране справедливого общества. Всё-таки не надо забывать, что я инженер-системотехник и чисто с идеологической точки зрения мне этот проект неинтересен. Поэтому в моих действиях отсутствует корысть, отсутствует политизированность. То есть передо мной не стоит выбор – за белых или за красных, за Путина или против Путина. Я не играю в идеологию. Не играю в оппозицию. Мне интересен проект как новая система построения справедливого гражданского общества в моей стране – России. </p>
+                      <p class="article-body-bold">– Сегодня все стремятся оседлать тему патриотизма. И коммунисты, и «Справедливая Россия», и «Единая Россия». Трудно разобраться. Все говорят очень правильно и красиво. Скажите, Вы человек плоть от плоти военно-промышленного комплекса, где априори подразумевается патриотизм. В чём Ваше отличие от коммунистов?</p>
+                      <p>– Во-первых, о патриотизме как о национальной идее сказал человек, с которым спорить не принято. Это президент России. Впервые именно из его уст я услышал о том, что национальной идеей России является патриотизм. То, что это подхватили другие партии, – уже эхо.</p>
+                      <p>Моё личное мнение – с точки зрения национальной идеи – наверное, совпадает. Просто я считаю, что идеология должна начинаться снизу, а не сверху. С реструктуризации гражданского общества, с понимания того, из каких ячеек-слоёв-идей-чаяний оно сегодня состоит. Надо больше слушать «землю», слушать народ. И начинать надо с муниципальных образований, с местного самоуправления, с большего делегирования прав именно туда.</p>
+                      <p>Пирамиду надо строить с фундамента, а не с верхушки. Поэтому любые лозунги, даже самые правильные со стороны власти, всё равно вторичны. Поэтому идеология должна строиться снизу. Она должна родиться естественным путём. Не через экранных «политтехнологов и глашатаев истины», а от корней.</p>
+                      <p class="article-body-bold">– Давайте поговорим о промышленной политике, о сельском хозяйстве. 
+                        Проблема российской экономики в кредитовании промышленности, помощи сельскому производителю, малому бизнесу. Это, наконец, продление режима санкций, уже с нашей стороны, чтобы не разорились те, кто поверил в политику импортозамещения и набрал кредитов. Коммунисты даже говорят, что нужно нефтянку национализировать.</p>
+                      <p>– Понятно. Всё это лозунги. Давайте сделаем это, давайте сделаем то. Вновь лозунги идут откуда-то даже не сверху, а сбоку.</p>
+                      <p>В нашей партии, думаю, будет два крыла в виде двух общественных движений. Это движение «Россия», которое возглавлял Геннадий Николаевич, – с его лидерами мы проведём переговоры. И движение «Граждане за себя», которое я возглавляю уже 14 лет.</p>
+                      <p>В саму партию можно будет войти либо через одну дверь, либо через другую. Грубо говоря, одна дверь – для тех, кто за коммунизм, национализацию и государственность. Другая – кто за капитализм, демократию и частную собственность. На самом деле это те два направления, которые разъединяют наше общество.</p>
+                      <p>Объединяющее центристское начало, как мне представляется, находится в объединении государственности и частной собственности. И задача партии, как я это вижу, чтобы все дискуссии на тему «За капитализм или за коммунизм» велись внутри двух этих движений. На партийные трибуны выходили бы уже отработанные решения. А партия проповедовала их соответственно в парламенте, если она там будет, и в обществе.</p>
+                      <p>Я вообще против партий. Они раскалывают общество. А его сейчас надо консолидировать, централизовать, для того чтобы вместе поднимать страну. Но, несмотря на то, что лично я против партий как таковых, другого юридического механизма сейчас нет. До того как этот механизм появится, мы вынуждены пользоваться теми инструментами, которые у нас есть. Поэтому ещё раз подчёркиваю, что будет существовать два крыла, два движения – левое и правое – внутри одной партии. Такого в политической системе России я не видел ни у кого. Все причисляют себя к какому-то лагерю. А мы хотели бы занять уникальную позицию, которая приемлет и левые, и правые взгляды. Мы хотим на созидательном уровне, как в тигле, переплавить разногласия. Это станет партией состоявшихся, основательных людей.</p>
+                    
+                      <blockquote>
+                        <p class="blockquote-body">Пирамиду надо строить с фундамента, а не с верхушки. Поэтому любые лозунги, даже самые правильные со стороны власти, всё равно вторичны.</p>
+                        <p class="blockquote-footer">Игорь Рауфович Ашурбейли</p>
+                      </blockquote>
+                    
+                      <p class="article-body-bold">– А вот два крыла… Как можно совместить, например, Набиуллину, от которой зависит вся банковская система, и того же Глазьева? 
+                        Это кошка с собакой.</p>
+                      <p>– А мы не будем никого совмещать. Ещё раз подчёркиваю. Левое и правое крыло не в партии. Левое и правое крыло – это два общественных движения и все те, другие, которые вокруг них.</p>
+                      <p>Поэтому у нас не борьба людей, как в примере с Глазьевым и Набиуллиной. Они варятся в родной им среде, а их идеи уже привносятся в партию. Идёт борьба идей, а не людей. А партия принимает итоговые внутренние взвешенные решения. И уже с единой партийной позицией идёт в парламент и в общество.</p>
+                      <p class="article-body-bold">– Ну всё равно, чтобы говорить о планах, нужно всё и всех персонифицировать. Возьмём, например, правительство. Многие министры свою слабость, импотенцию выдают за слабость страны.</p>
+                      <p>– Я вам шуткой отвечу. Сейчас модно ругать правительство, министров…Что, мол, в правительство пришли дилетанты. Я всё время поправляю: «Ребята, не так. Не дилетанты пришли. Дилетантов хотя бы можно научить. Пришли про-фа-ны. А профан, он не хочет учиться. Он всегда считает себя правым». Это наиболее тупиковая ситуация.</p>
+                      <p>Ну какой смысл перечислять фамилии? В правительстве есть люди профессиональные, есть дилетанты, есть профаны. К сожалению, доля профанов растёт постоянно, доля профессионалов сокращается.</p>
+                      <p class="article-body-bold">– Давайте вспомним про оборонку, откуда Вы идёте в политику.</p>
+                      <p>– Да не иду я ни в какую политику! Сказал же – для меня это просто очень интересный глобальный и системный проект гражданской реструктуризации российского этноса, которому я служу.</p>
+                    
+                      <blockquote>
+                        <p class="blockquote-body">Я ни в коем случае не лидер партии. Лично я категорически не имею ни малейшего желания или намерения идти ни в Государственную думу, ни в правительственные органы. Мне интересна сама идея структуризации гражданского общества, сама идея построения в стране справедливого общества.</p>
+                        <p class="blockquote-footer">Игорь Рауфович Ашурбейли</p>
+                      </blockquote>
+                      <p>Что касается оборонки, как раз рост числа профанов в ней и стал главной причиной того, что я решил окончательно уйти из оборонной промышленности. Пять лет назад ушёл с «Алмаза», ещё пять лет продолжал курировать свои частные оборонные предприятия. Их у меня шесть: в Москве, Зеленограде, Рязани, в Калужской области и в Арзамасе. С общей численностью работающих порядка 7 тысяч человек.</p>
+                    </div>  
+                    <div class="col-md-12">
+                      <div class="news-gallery">
+                        <div class="image-preview">
+                        <img id="preview" src="img/images/img2.jpg"/>
+                        <a class="share-link" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <p class="article-foto-text">Официально Группа компаний была образована 10 июня 1988 года, так что в этом году «Социуму» исполнилось уже 28 лет.</p>
+                        </div>
+                        <ul id="news-carousel" class="elastislide-list">
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image01"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image02"></a></li>
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image03"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image04"></a></li>
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image01"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image02"></a></li>
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image03"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image04"></a></li>
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image01"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image02"></a></li>
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image03"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image04"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image02"></a></li>
+                          <li data-preview="img/images/img2.jpg"><a href="#"><img src="img/images/img2-sm.jpg" alt="image03"></a></li>
+                          <li data-preview="img/images/img3.jpg"><a href="#"><img src="img/images/img3-sm.jpg" alt="image04"></a></li>
+                        </ul>                        
+                      </div>
+                      <div class="news-gallery-small">
+                        <ul id="news-carousel-small" class="elastislide-list">
+                          <li><a href="#"><img src="img/images/img3-md.jpg" alt="image01" /></a></li>
+                          <li><a href="#"><img src="img/images/img2-md.jpg" alt="image02" /></a></li>
+                          <li><a href="#"><img src="img/images/img3-md.jpg" alt="image03" /></a></li>
+                          <li><a href="#"><img src="img/images/img2-md.jpg" alt="image04" /></a></li>
+                          <li><a href="#"><img src="img/images/img3-md.jpg" alt="image01" /></a></li>
+                          <li><a href="#"><img src="img/images/img2-md.jpg" alt="image02" /></a></li>
+                          <li><a href="#"><img src="img/images/img3-md.jpg" alt="image03" /></a></li>
+                          <li><a href="#"><img src="img/images/img2-md.jpg" alt="image04" /></a></li>
+                          <li><a href="#"><img src="img/images/img3-md.jpg" alt="image01" /></a></li>
+                          <li><a href="#"><img src="img/images/img2-md.jpg" alt="image02" /></a></li>
+                          <li><a href="#"><img src="img/images/img3-md.jpg" alt="image03" /></a></li>
+                        </ul>
+                        <a class="share-link share-link-small" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <p class="article-foto-text">Официально Группа компаний была образована 10 июня 1988 года, так что в этом году «Социуму» исполнилось уже 28 лет.</p>
+                      </div> 
+                    </div>
+                    <div class="col-md-12">
+                      <p>Недавно провели конференцию руководящего состава Группы компаний «Социум». Это мой холдинг, которому столько же лет, сколько предпринимательству в России: он был создан 10 июня 1988 года в день принятия Закона о кооперации. То есть как только частную собственность разрешили, так я его и создал, будучи аспирантом. Так что компании 28 лет.</p>
+                      <p>Но в последние пять лет я понял, что мне больше неохота работать в агрессивной среде, когда вся задача правительства – в создании оборонно-промышленного, государственного капитализма. Хоть и много говорилось о частно-государственном партнёрстве, на самом деле вся политика строится на госкорпорациях, на укрупнении и так далее. Плохо это или хорошо, я не хочу об этом говорить.</p>
+                      <p>Просто частному бизнесу нечего делать в агрессивной среде, задачи которой либо тебя поглотить, либо лишить заказов, либо прижать какими-то иными способами. А я привык заниматься глобальными законченными технологичными цепочками с конечным финальным продуктом, как С-300, С-400, С-5 и так далее.</p>
+                      <p>В агрессивной среде частнику невозможно держать незаконченную финальную цепочку. И я не вижу профессионального удовлетворения в том, что выпускаю нечто, что не является самостоятельным финальным вооружением, способным принести пользу России на потенциальном театре военных действий. А делать какие-то, пусть очень важные, комплектующие, отдельно законченные устройства, блоки только для зарабатывания даже больших денег, мне неинтересно. Поэтому я поставил управляющей компании задачу продажи всех опорных активов и выхода из оборонной промышленности в целом.</p>
+                      <p>Если бы я ушёл из оборонки раньше, когда не по своей воле покинул (с объявлением благодарности за работу) пост генерального директора «Алмаза», это выглядело бы как бегство и как слабость. Поэтому я спокойно выждал пятилетнюю паузу, дождался положительных результатов всевозможных проверок правоохранительных органов по доносам своих бывших подчинённых и коллег, исчерпал пятилетний срок по секретности.</p>
+                      <div class="article-img">
+                        <img src="img/images/img3.jpg" alt="">
+                        <a class="share-link" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <p class="article-foto-text">Председатель Президиума ВЭС ВКО, доктор технических наук Игорь Ашурбейли</p>
+                      </div>
+                      <p>Какие ко мне, собственно, есть вопросы? Несмотря на заказную информационную войнушку в СМИ, юридически и, главное, морально я чист. Претензий ко мне со стороны органов нет. Конечно, если что-то вдруг не изменится в связи с моим приходом в «Партию Возрождения России». Но это уже, как говорится, другая история.
+                      Игорь Ашурбейли стал лауреатом медали ЮНЕСКО «За вклад в развитие нанонауки и нанотехнологий»</p>
+                      <p>А пока я со спокойной совестью говорю: ребята, до свидания! Теперь, уже как частное лицо, продолжаю профессионально заниматься научными проектами в воздушно-космической сфере, но уже в международном масштабе.</p>
+                      <p>В частности, возглавил в этом году комиссию ЮНЕСКО по космосу. Первая энциклопедия этой комиссии – «Наука о космосе» – будет презентована в Париже в штаб-квартире ЮНЕСКО осенью этого года. Будет, соответственно, учреждена медаль ЮНЕСКО, которая будет вручаться нами раз в год за научные достижения в области космических технологий.</p>
+                      <p>В Вене, по месту дислокации комитета ООН по космосу, создал международный центр исследований космического пространства AIRC.</p>
+                      <p>Основал, издаю и являюсь главным редактором международного космического журнала ROOM. В составе редакционного совета представлены VIP-персоны всех стран, которые имеют достижения в космической области.
+                      В ООН признали высочайший уровень российских экспертов</p>
+                      <p>Так что продолжаю заниматься своей профессиональной деятельностью, но уже на экспертном уровне – как в России, в качестве председателя Вневедомственного экспертного совета по вопросам воздушно-космической сферы (ВЭС ВКС), аккредитованного при ЭКОСОС ООН, так и за рубежом.</p>
+                      <p class="article-body-bold">– Прощай, немытая Россия, страна рабов, страна господ?</p>
+                      <p>– Конечно, нет.</p>
+                      <p>Во-первых, я убеждённый гражданин России, и так просто от меня не избавиться. Хотя, мультигражданство, на мой взгляд, – это будущее земной цивилизации.</p>
+                      <p>Во-вторых, в России продолжает работать и развиваться мой многопрофильный холдинг «Социум». Там есть, в частности, любимое моё направление по созданию образцового сельского поселения и агрохозяйства в Нижегородской области – родине моих предков по материнской линии.</p>
+                      <p>Плюс развитие частного венчурного направления так называемых бизнес-ангелов, пока плохо развитого в России, но без которого у нас не будет технологий будущего.</p>
+                      <p>В-третьих, за мной остаётся большой пласт благотворительных проектов в России, в которые за последние пять лет мы вложили около 600 миллионов рублей.</p>
+                      <p>И главное, будучи заместителем С. В. Степашина, как Председателя старейшей в России международной общественной организации – Императорского Православного Палестинского Общества, – несколько месяцев назад я был назначен директором этого общества в государстве Израиль. Там сейчас осуществляется крупный проект по возвращению в государственную собственность Российской Федерации православных святынь на территории Святой земли, которые были утеряны после революции 1917 года. Есть соответствующее поручение президента РФ. Есть соответствующее поручение Патриарха Московского и всея Руси. Будем выполнять.</p>
+                      <p class="article-body-bold">– Ну что ж, удачи Вам и на земле, и в космосе, и на Святой земле. Ну и в партстроительстве!</p>
+                    </div>                 
+                    <div class="col-md-8 text-left article-body-socsite">
+                      <p class="article-body-bold pull-left">Поделиться в соцсетях:</p>
+                      <a class="class-clear pull-left" href="#"><img src="img/vk.png" alt="ВКонтакте"></a>
+                      <a class="pull-left" href="#"><img src="img/fb.png" alt="Facebook"></a>
+                      <a class="pull-left" href="#"><img src="img/ok.png" alt="Одноклассники"></a>
+                      <a class="pull-left" href="#"><img src="img/tw.png" alt="Twitter"></a>            
+                      <a class="pull-left" href="#"><img src="img/yb.png" alt="Youtube"></a>                      
+                    </div>
+                    <div class="clearfix visible-sm-block visible-xs-block"></div>
+                    <div class="col-md-4 text-right">
+                      <p class="article-body-likes">12 342 <i class="fa fa-eye" aria-hidden="true"></i> <span>435 <i class="fa fa-thumbs-up" aria-hidden="true"></i></span></p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="article-widget col-md-12">
+                      <p class="widget-tags pull-left"><a href="#">партия</a></p>
+                      <p class="widget-tags pull-left"><a href="#">Ашурбейли</a></p>
+                      <p class="widget-tags pull-left"><a href="#">съезд</a></p>
+                    </div>
+                  </div>
+                </div><!--/.article-body-->
+              </div> <!-- /.content-box -->
+              <div class="more-pubs">
+                <h3>Публикации по теме</h3>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="#"><img src="img/main3.jpg" alt=""></a>
+                    <p class="content-pub-date">15 августа 2016</p>
+                    <p class="content-pub-h"><a href="#">«Золотые мальчики» снова взяли медали высшей пробы</a></p> 
+                    <p class="content-pub-text">Московские школьники завоевали «золото» на Международной математической олимпиаде</p>
+                  </div>
+                  <div class="col-sm-4 top-space">
+                    <a href="#"><img src="img/main2.jpg" alt=""></a>
+                    <p class="content-pub-date">12 августа 2016</p>
+                    <p class="content-pub-h"><a href="#">Из оборонки – в космос и политику</a></p> 
+                    <p class="content-pub-text">Через два месяца пройдут выборы  
+                      в Государственную думу. Список партий, допущенных к участию в них, будто бы уже сформирован. 
+                      Но, как оказалось, партийное строительство в стране 
+                      не останавливается</p>
+                  </div>
+                  <div class="col-sm-4 top-space">
+                      <a href="#"><img src="img/main.jpg" alt=""></a>
+                      <p class="content-pub-date">30 июля 2016</p>
+                      <p class="content-pub-h"><a href="#">«Граждане за себя»: сила простого человека</a></p> 
+                      <p class="content-pub-text">6 августа 2015 года на встрече думской фракции «Единой России» с Президентом страны Владимиром Путиным был поднят острейший вопрос – что делать 
+                        с неиспользуемыми землями сельскохозяйственного назначения.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="content-pub-all col-sm-12 text-right"><a href="news.html">Все статьи и новости</a></div>
+                </div>
+                <h3>Еще в разделе</h3>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="#"><img src="img/main3.jpg" alt=""></a>
+                    <p class="content-pub-date">15 августа 2016</p>
+                    <p class="content-pub-h"><a href="#">«Золотые мальчики» снова взяли медали высшей пробы</a></p> 
+                    <p class="content-pub-text">Московские школьники завоевали «золото» на Международной математической олимпиаде</p>
+                  </div>
+                  <div class="col-sm-4 top-space">
+                    <a href="article.html"><img src="img/main2.jpg" alt=""></a>
+                    <p class="content-pub-date">12 августа 2016</p>
+                    <p class="content-pub-h"><a href="article.html">Из оборонки – в космос и политику</a></p> 
+                    <p class="content-pub-text">Через два месяца пройдут выборы  
+                      в Государственную думу. Список партий, допущенных к участию в них, будто бы уже сформирован. 
+                      Но, как оказалось, партийное строительство в стране 
+                      не останавливается</p>
+                  </div>
+                  <div class="col-sm-4 top-space">
+                      <a href="#"><img src="img/main.jpg" alt=""></a>
+                      <p class="content-pub-date">30 июля 2016</p>
+                      <p class="content-pub-h"><a href="#">«Граждане за себя»: сила простого человека</a></p> 
+                      <p class="content-pub-text">6 августа 2015 года на встрече думской фракции «Единой России» с Президентом страны Владимиром Путиным был поднят острейший вопрос – что делать 
+                        с неиспользуемыми землями сельскохозяйственного назначения.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="content-pub-all col-sm-12 text-right"><a href="#">Все материалы раздела</a></div>
+                </div>
+              </div><!-- /.more-pubs -->
+            </div><!-- /.content -->
+          </div>
+
+          <div class="col-md-3">
+            <div class="sidebar hidden-sm hidden-xs">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="widget">
+                    <a class="btn btn-default btn-red" href="#" role="button">Вступить в партию</a>
+                    <div class="widget-text">
+                      <p class="clearfix">
+                        <span class="big pull-left">59</span> 
+                        <span class="pull-left">региональных<br>представительств </span>
+                        <img src="img/icon1.png" class="pull-right" alt="">
+                      <p>
+                    </div>
+                    <div class="widget-text">
+                      <p class="clearfix">
+                        <span class="big pull-left">125 000</span> 
+                        <span class="pull-left">членов<br>партии </span>
+                        <img src="img/icon2.png" class="pull-right" alt="">
+                      <p>
+                    </div>
+                  </div>
+                </div>             
+                <div class="col-md-12">
+                  <div class="sidebar-item item-person">
+                    <a href="#"><img class="img-circle" src="img/person2.jpg" alt="Геннадий Селезнёв"></a>
+                    <p class="date">1947-2015</p>
+                    <p class="name"><a href="#">Геннадий Селезнёв</a></p>
+                    <p class="info">основатель Партии Возрождения России</p>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="sidebar-item">
+                    <h3>Анонсы</h3>
+                    <div>
+                      <p class="item-name"><a href="#">Выйдет в свет номер газеты “Россия”</a></p>
+                      <p class="item-date">20 сентября 2016</p>
+                    </div>
+                    <div>
+                      <p class="item-name"><a href="#">На сайте можно посмотреть макет нового партийного билета</a></p>
+                      <p class="item-date">25 сентября 2016</p>
+                    </div>
+                    <div>
+                      <p class="item-name"><a href="#">Старт бета-версии официального сайта</a></p>
+                      <p class="item-date">30 октября 2016</p>
+                    </div>                    
+                  </div>
+                </div>                
+                <div class="col-md-12">
+                  <div class="content-options"> 
+                    <p class="content-options-text"><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Поддержать партию</a></p>                              
+                  </div><!-- /.content-options -->
+                </div>            
+                <div class="col-md-12">
+                  <div class="item-person2">
+                    <img class="img-person" src="img/images/img4.jpg" alt="Геннадий Селезнёв">
+                    <div>
+                      <p class="item-name"><a href="#">Партия Возрождения России» определила цели партийного строительства</a></p>
+                    </div>
+                    <p class="label-press">Пресса</p>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="sidebar-item">
+                    <h3>А вы что думаете?</h3>
+                    <div>
+                      <p class="item-name">Верите ли вы в возрождение России?</p>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                          Хотелось бы, но нет оснований
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+                          Обязательно
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                          Небольшая надежда есть
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+                          Россия уже возрождается
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-default btn-red">Голосовать</button>
+                    </div>  
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="sidebar-item">
+                    <h3>Выбор читателей</h3> 
+                    <div class="section-table">
+                      <div class="section-row">
+                        <div class="section-cell">
+                          <p class="number">1</p>
+                        </div>
+                        <div class="section-cell space">
+                          <p class="item-name"><a href="#">Выйдет в свет номер газеты “Россия”</a></p>
+                          <p class="item-date">Просмотров: 2097</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-table">
+                      <div class="section-row">
+                        <div class="section-cell">
+                          <p class="number">2</p>
+                        </div>
+                        <div class="section-cell space">
+                          <p class="item-name"><a href="#">На сайте можно посмотреть макет нового партийного билета</a></p>
+                          <p class="item-date">Просмотров: 1563</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-table">
+                      <div class="section-row">
+                        <div class="section-cell">
+                          <p class="number">3</p>
+                        </div>
+                        <div class="section-cell space">
+                          <p class="item-name"><a href="#">Старт бета-версии официального сайта</a></p>
+                          <p class="item-date">Просмотров: 1021</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>                   
+                    <p class="selection-top"><a href="#">Топ 50</a></p>                   
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="widget clearfix">
+                    <p class="widget-tags pull-left"><a href="#">политика</a></p>
+                    <p class="widget-tags pull-left"><a href="#">общество</a></p>
+                    <p class="widget-tags pull-left"><a href="#">патриотизм</a></p>
+                    <p class="widget-tags pull-left"><a href="#">Селезнёв</a></p>
+                    <p class="widget-tags pull-left"><a href="#">возрождение</a></p>
+                    <p class="widget-tags pull-left"><a href="#">идея</a></p>
+                    <p class="widget-tags pull-left"><a href="#">достижения</a></p>
+                    <p class="widget-tags pull-left"><a href="#">успех</a></p>
+                    <p class="widget-tags pull-left"><a href="#">Ашурбейли</a></p>
+                    <p class="widget-tags pull-left"><a href="#">съезд</a></p>
+                    <p class="widget-tags pull-left"><a href="#">регионы</a></p>
+                    <p class="widget-tags pull-left"><a href="#">Москва</a></p>
+                    <p class="widget-tags pull-left"><a href="#">Дагестан</a></p>
+                    <p class="widget-tags pull-left"><a href="#">молодёжь</a></p>
+                  </div>
+                </div>              
+                <div class="col-md-12">
+                  <div class="sidebar-item item-stock">
+                    <h3>Склад</h3>
+                    <div class="item-question img-circle" data-container="body" data-toggle="tooltip" data-placement="right" data-title="Адрес: Москва, Ленинградскай проспект, д. 80"><span>?</span></div>
+                    <div class="section-table">
+                      <div class="section-row">
+                        <div class="section-cell item-stock-img">
+                          <img src="img/icon3.png" alt="">
+                        </div>
+                        <div class="section-cell space">
+                          <p class="item-name"><a href="#">Заказать сувенирную продукцию</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-table">
+                      <div class="section-row">
+                        <div class="section-cell item-stock-img">
+                          <img src="img/icon4.png"alt="">
+                        </div>
+                        <div class="section-cell space">
+                          <p class="item-name"><a href="#">Скачать макеты для изготовления</a></p>
+                        </div>
+                      </div>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="item-person2">
+                    <img class="img-person" src="img/images/img5.jpg" alt="Геннадий Селезнёв">
+                    <div>
+                      <p class="item-name"><a href="#">«Патриоты России» утвердили списки кандидатов на выборы в Госдуму</a></p>
+                    </div>
+                    <p class="label-press">Выбор редакции</p>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="content-options"> 
+                    <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-news"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Прислать новость</a></p>                             
+                  </div><!-- /.content-options--> 
+                </div>
+                <div class="col-md-12">
+                  <div class="content-edition">
+                    <h3>Издания</h3>
+                    <ul id="elastislide2" class="elastislide-list">
+                      <li>
+                        <div class="content-edition-body">   
+                          <a href="#"><img src="img/ed1.png" alt="Сайт Президента России"></a>                      
+                          <p class="item-name"><a href="#">Газета «Россия»</a></p> 
+                          <p>№1 (946) 14-20 июля<br>2016 года</p>
+                        </div>                       
+                      </li>  
+                      <li>
+                        <div class="content-edition-body">
+                          <a href="#"><img src="img/ed2.png" alt="Сайт Президента России"></a>
+                          <p class="item-name"><a href="#">Книга «Геннадий<br>Селезнёв. Прямая речь»</a></p>    
+                          <p>Книга посвящена памяти<br>видного политического<br>деятеля, товарища<br>и соратника</p> 
+                        </div>                   
+                      </li>
+                      <li>
+                        <div class="content-edition-body">
+                          <a href="#"><img src="img/ed3.png" alt="Сайт Президента России"></a>
+                          <p class="item-name"><a href="#">Журнал «Возрождение<br>России»</a></p>
+                          <p>Общественно-политический<br>журнал</p>     
+                        </div>                   
+                      </li>                      
+                      <li>
+                        <div class="content-edition-body">   
+                          <a href="#"><img src="img/ed1.png" alt="Сайт Президента России"></a>                      
+                          <p class="item-name"><a href="#">Газета «Россия»</a></p> 
+                          <p>№1 (946) 14-20 июля<br>2016 года</p>
+                        </div>                       
+                      </li>  
+                      <li>
+                        <div class="content-edition-body">
+                          <a href="#"><img src="img/ed2.png" alt="Сайт Президента России"></a>
+                          <p class="item-name"><a href="#">Книга «Геннадий<br>Селезнёв. Прямая речь»</a></p>    
+                          <p>Книга посвящена памяти<br>видного политического<br>деятеля, товарища<br>и соратника</p> 
+                        </div>                   
+                      </li>
+                      <li>
+                        <div class="content-edition-body">
+                          <a href="#"><img src="img/ed3.png" alt="Сайт Президента России"></a>
+                          <p class="item-name"><a href="#">Журнал «Возрождение<br>России»</a></p>
+                          <p>Общественно-политический<br>журнал</p>     
+                        </div>                   
+                      </li>
+                      <li>
+                        <div class="content-edition-body">
+                          <a href="#"><img src="img/ed2.png" alt="Сайт Президента России"></a>
+                          <p class="item-name"><a href="#">Книга «Геннадий<br>Селезнёв. Прямая речь»</a></p>    
+                          <p>Книга посвящена памяти<br>видного политического<br>деятеля, товарища<br>и соратника</p> 
+                        </div>                   
+                      </li>
+                      <li>
+                    </ul>                
+                  </div><!--/.content-edition -->
+                </div> 
+                <div class="col-md-12">
+                  <div class="content-options"> 
+                    <p class="content-options-text"><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Задать вопрос</a></p>                              
+                  </div><!-- /.content-options --> 
+                </div>
+                <div class="col-md-12">
+                  <div class="content-quote">                   
+                  <div class="media">
+                    <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                    <div class="media-left media-middle img-block">
+                      <a href="#">
+                        <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
+                      </a>
+                    </div>
+                    <div class="media-body media-middle">
+                      <p class="media-quote-name">Игорь  Ашурбейли</p>
+                    </div>
+                  </div>
+                  </div><!--/.content-quote-->
+                </div>
+                <div class="col-md-12">
+                  <div class="content-foto">
+                    <div class="content-foto-box clearfix">
+                      <div class="row">
+                        <div class="col-xs-4 foto-gallery clearfix">
+                          <img alt="" src="img/foto1.png">
+                          <img alt="" src="img/foto2.png">
+                          <img alt="" src="img/foto3.png">
+                          <img alt="" src="img/foto4.png">
+                        </div>
+                        <div class="col-xs-4 foto-gallery clearfix">
+                          <img alt="" src="img/foto5.png">
+                          <img alt="" src="img/foto6.png">
+                          <img alt="" src="img/foto7.png">
+                          <img alt="" src="img/foto8.png">
+                        </div>
+                        <div class="col-xs-4 foto-gallery clearfix">
+                          <img alt="" src="img/foto9.png">
+                          <img alt="" src="img/foto10.png">
+                          <img alt="" src="img/foto11.png">
+                          <img alt="" src="img/foto12.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="foto-content clearfix">
+                      <h3>Фотоконкурс</h3>
+                      <p class="foto-bold">Люди. Город. Страна</p>
+                      <p class="foto-date"><span>с 01.11.2017 по 01.03.2017</span></p>
+                      <p class="foto-text">Победители получат билеты на Чемпионат Мира по футболу в 2018 году, который будет проходить в России</p>
+                      <p class="foto-red">Номинации:</p>
+                      <div>
+                        <p class="foto-tags pull-left"><a href="#">природа</a></p>
+                        <p class="foto-tags pull-left"><a href="#">архитектура</a></p>
+                        <p class="foto-tags pull-left"><a href="#">портреты</a></p>
+                        <p class="foto-tags pull-left"><a href="#">история</a></p>
+                      </div>
+                    </div>                   
+                </div><!--/.content-foto-->    
+                </div>
+              </div>
+            </div><!-- /.sidebar --> 
+          </div>
+
+        </div>
+      </div><!-- /.container -->
+    </section><!-- /.main-content -->
+
+    <footer id="bottom-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="media col-md-12 col-sm-6">
+              <div class="media-left media-middle bottom-img-block">
+                <a href="index.html">
+                  <img src="img/logo3.png" class="img-circle" alt="ПВР">
+                </a>
+              </div>
+              <div class="media-body bottom-media-body">
+                <h2>Партия Возрождения России</h2>
+                <p>Официальный сайт</p>
+              </div>
+              </div><!--/.media-->
+            
+              <div class="col-md-12 col-sm-6">
+              <div class="bottom-form">
+                <h4>Подпишитесь на наши новости!</h4>                  
+                <div class="form-body">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="name" id="modalSubscribeName" placeholder="Ваше имя">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="modalSubscribeEmail" placeholder="E-mail">
+                  </div>
+                  <button type="submit" class="btn btn-default btn-red modal-btn">Подписаться</button>
+                </form>
+                </div>
+              </div>                                   
+              </div>
+            </div> 
+          </div>
+          <div class="bm-menu col-md-8">
+            <div class="row">
+              <div class="col-sm-3">
+                <h5>О партии</h5>
+                <ul>
+                  <li><a href="#">Устав</a></li>
+                  <li><a href="#">Программные документы</a></li>
+                  <li><a href="#">Руководящие и рабочие органы</a></li>
+                  <li><a href="#">Лица партии</a></li>
+                  <li><a href="#">Региональные представительства</a></li>
+                  <li><a href="#">История</a></li>
+                  <li><a href="#">Предвыборная программа</a></li>
+                  <li><a href="#">Решения и заявления</a></li>
+                  <li><a href="#">Вступить в партию</a></li>
+                  <li><a href="#">Электронный партбилет</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3 bottom-space">
+                <h5>Пресс-служба</h5>
+                <ul>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Пресс-релизы</a></li>
+                  <li><a href="#">Баннеры</a></li>
+                  <li><a href="#">Фотобанк</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3 bottom-space">
+                <h5>Новости и статьи</h5>
+                <ul>
+                  <li><a href="#">Новости ПВР</a></li>
+                  <li><a href="#">Короткие новости</a></li>
+                  <li><a href="#">Общество</a></li>
+                  <li><a href="#">Политика</a></li>
+                  <li><a href="#">Экономика</a></li>
+                  <li><a href="#">Жизнь</a></li>
+                  <li><a href="#">Пресса</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3 bottom-space">
+                <h5>Издания</h5>
+                <ul>
+                  <li><a href="#">Газета “Россия”</a></li>
+                  <li><a href="#">Журнал “Возрождение России”</a></li>
+                  <li><a href="#">Книга “Геннадий Селезнёв. Прямая речь”</a></li>
+                  <li><a href="#">Брошюра “Памяти Геннадия Николаевича Селезнёва”</a></li>
+                 </ul>
+                 <ul> 
+                  <li class="bottom-space"><a class="bottombold" href="#">Цитаты</a></li>
+                  <li><a class="bottombold" href="#">Склад</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom-options row">
+              <div class="col-sm-4 separate2">
+                <p><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Поддержать партию</a></p>
+              </div>
+              <div class="col-sm-4">
+                <p><a href="#" data-toggle="modal" data-target=".modal-news"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Прислать новость</a></p>
+              </div>
+              <div class="col-sm-4 separate2">
+                <p><a href="#" data-toggle="modal" data-target=".modal-question"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Задать вопрос</a></p>
+              </div>
+            </div>
+          </div>                   
+        </div>
+      </div>
+    </footer>
+
+    <footer id="bottom-icons">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-left">
+            <p class="pull-left">ПВР в соцсетях:</p>
+            <a class="class-clear pull-left" href="#"><img src="img/vk.png" alt="ВКонтакте"></a>
+            <a class="pull-left" href="#"><img src="img/fb.png" alt="Facebook"></a>
+            <a class="pull-left" href="#"><img src="img/ok.png" alt="Одноклассники"></a>
+            <a class="pull-left" href="#"><img src="img/tw.png" alt="Twitter"></a>            
+            <a class="pull-left" href="#"><img src="img/yb.png" alt="Youtube"></a>
+          </div>
+          <div class="clearfix visible-xs-block"></div>
+          <div class="col-sm-6 text-right statistics">
+            <a href="#"><img src="img/mailru.png" alt=""></a>
+            <a href="#"><img src="img/live.png" alt=""></a>
+            <a href="#"><img src="img/rambler.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquerypp.custom.js"></script>
+  <script src="js/jquery.elastislide.js"></script>
+  <script src="js/scripts.js"></script>
+  <script type="text/javascript">
+      
+      var current = 0,
+        $preview = $( '#preview' ),
+        $carouselEl = $( '#news-carousel' ),
+        $carouselItems = $carouselEl.children(),
+        carousel = $carouselEl.elastislide( {
+          current : current,
+          minItems : 3,
+          onClick : function( el, pos, evt ) {
+
+            changeImage( el, pos );
+            evt.preventDefault();
+
+          },
+          onReady : function() {
+
+            changeImage( $carouselItems.eq( current ), current );
+            
+          }
+        } );
+
+      function changeImage( el, pos ) {
+
+        $preview.attr( 'src', el.data( 'preview' ) );
+        $carouselItems.removeClass( 'current-img' );
+        el.addClass( 'current-img' );
+        carousel.setCurrent( pos );
+
+      }
+
+    </script>
+
+  </body>
+</html>
