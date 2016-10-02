@@ -46,9 +46,11 @@
                 <li class="small-menu-grey clearfix"><a class="navbar-enter" href="#" data-toggle="modal" data-target=".modal-enter"><span class="glyphicon glyphicon-user menu-icons" aria-hidden="true"></span> Вход <span class="sl">/&nbsp;</span></a><a href="#" class="navbar-registration" data-toggle="modal" data-target=".modal-registration">Регистрация</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown">
-                  <a data-target="#" href="#" class="dropdown-toggle" id="dropdown-color" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i class="fa fa-circle red" aria-hidden="true"></i> <span class="caret"></span></a>
-                  <ul class="dropdown-menu dropdown-color-menu" aria-labelledby="dropdown-color">
-                    <li><a href="#"><i class="fa fa-circle green" aria-hidden="true"></i></a></li>
+                  <a data-target="#" href="#" class="dropdown-toggle red" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-circle red" aria-hidden="true"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="blue"><i class="fa fa-circle blue" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="green"><i class="fa fa-circle green" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="gray"><i class="fa fa-circle gray" aria-hidden="true"></i></a></li>
                   </ul>
                 </li>                
               </ul>
@@ -82,9 +84,11 @@
               </ul>             
               <ul class="nav navbar-nav navbar-right navbar-dropdown">
                 <li class="dropdown">
-                  <a data-target="#" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-circle red" aria-hidden="true"></i> <span class="caret"></span></a>
+                  <a data-target="#" href="#" class="dropdown-toggle red" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-circle red" aria-hidden="true"></i> <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#"><i class="fa fa-circle green" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="blue"><i class="fa fa-circle blue" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="green"><i class="fa fa-circle green" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="gray"><i class="fa fa-circle gray" aria-hidden="true"></i></a></li>
                   </ul>
                 </li>
               </ul>
@@ -339,7 +343,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-9">
+          <div id="content" class="col-md-9">
             <div class="content"> 
               <div class="content-block">
                 <ol class="breadcrumb hidden-xs">
@@ -356,19 +360,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Игорь  Ашурбейли</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                        <p class="media-quote-name"><a href="#">Игорь  Ашурбейли</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -380,19 +384,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Сергей Вадимович Степашин</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/images/img9.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                        <p class="media-quote-name"><a href="#">Сергей Вадимович Степашин</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -404,19 +408,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Владимир Васильев</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Владимир Васильев</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/images/img10.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Владимир Васильев</p>
+                        <p class="media-quote-name"><a href="#">Владимир Васильев</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -428,19 +432,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Николай Харитонов</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Николай Харитонов</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/images/img11.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Николай Харитонов</p>
+                        <p class="media-quote-name"><a href="#">Николай Харитонов</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -452,19 +456,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Игорь  Ашурбейли</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                        <p class="media-quote-name"><a href="#">Игорь  Ашурбейли</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -476,19 +480,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Сергей Вадимович Степашин</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Достаточно почитать подшивки газет того времени, чтобы увидеть, какое человеческое мужество, идейную и политическую твёрдость и устойчивость, занимая высокие посты в государстве, надо было иметь, чтобы «не поплыть по воле волн», сохранить свои убеждения, остаться верным своим жизненным принципам, и в то же время чувствовать и понимать динамику этого самого времени, реагировать на неизбежные перемены. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/images/img9.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Сергей Вадимович Степашин</p>
+                        <p class="media-quote-name"><a href="#">Сергей Вадимович Степашин</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -500,19 +504,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Владимир Васильев</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Владимир Васильев</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Селезнев всегда стремился к достижению компромисса и даже в условиях конфликта с исполнительной властью сумел обеспечить законодательный процесс <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/images/img10.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Владимир Васильев</p>
+                        <p class="media-quote-name"><a href="#">Владимир Васильев</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -524,19 +528,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Николай Харитонов</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Николай Харитонов</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Геннадий Николаевич был той консолидирующей фигурой, которая по-настоящему возродила российский парламентаризм <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/images/img11.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Николай Харитонов</p>
+                        <p class="media-quote-name"><a href="#">Николай Харитонов</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -548,19 +552,19 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                        <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        <p class="media-quote-name"><a href="#">Игорь  Ашурбейли</a></p>
                       </div>
                     </div> 
                     <div class="media visible-xs-block">
-                      <p class="media-quote"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+                      <p class="media-quote"><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i> На том историческом вираже Геннадий Николаевич был по-настоящему самостоятельным политиком. Он не боялся выборов, не избегал дискуссий, не уходил от сложных вопросов и всегда, во всех политических спорах и баталиях, вёл себя с достоинством. <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                       <div class="media-left media-middle img-block">
                         <a href="#">
                           <img src="img/person1.jpg" class="img-circle" alt="Игорь Ашурбейли">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <p class="media-quote-name">Игорь  Ашурбейли</p>
+                        <p class="media-quote-name"><a href="#">Игорь  Ашурбейли</a></p>
                       </div>
                     </div>
                   </div><!--/.citation-content-->
@@ -579,7 +583,7 @@
             </div><!-- /.content -->
           </div>
 
-          <div class="col-md-3">
+          <div id="sidebar" class="col-md-3">
             <div class="sidebar hidden-sm hidden-xs">
               <div class="row">
                 <div class="col-md-12">
@@ -909,39 +913,9 @@
   <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/jquerypp.custom.js"></script>
   <script src="js/jquery.elastislide.js"></script>
+  <script src="js/fix_sidebar.js"></script>
+  <script src="js/fix_content.js"></script>
   <script src="js/scripts.js"></script>
-  <script type="text/javascript">
-      
-      var current = 0,
-        $preview = $( '#preview' ),
-        $carouselEl = $( '#news-carousel' ),
-        $carouselItems = $carouselEl.children(),
-        carousel = $carouselEl.elastislide( {
-          current : current,
-          minItems : 3,
-          onClick : function( el, pos, evt ) {
-
-            changeImage( el, pos );
-            evt.preventDefault();
-
-          },
-          onReady : function() {
-
-            changeImage( $carouselItems.eq( current ), current );
-            
-          }
-        } );
-
-      function changeImage( el, pos ) {
-
-        $preview.attr( 'src', el.data( 'preview' ) );
-        $carouselItems.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel.setCurrent( pos );
-
-      }
-
-    </script>
 
   </body>
 </html>

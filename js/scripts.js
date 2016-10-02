@@ -1,8 +1,20 @@
 $(function(){
+
+	$('#form-search').on('click', function(){
+		$('.enter').css('display', 'none');
+		$('.sl').css('display', 'none');
+		$('.navbar-registration').css('display', 'none');		
+		$('.form-control-search').css('width', 265 + 'px');
+		if (document.body.clientWidth < 993) {
+			$('.form-control-search').css('width', 230 + 'px');
+			$('.form-control-search').css('marginLeft', 5 + 'px');
+		}
+	});
+
 	$('#carousel').carousel({
 		interval: 4000
 	});
-	
+
 	$('#partnerslide').elastislide();
 	$('#elastislide2').elastislide();
 	$('#news-carousel').elastislide();
@@ -27,7 +39,6 @@ $(function(){
 	});*/
 
 
-
 	$("[data-toggle=popover]").popover({
 		html: true, 
 		content: function() {
@@ -35,3 +46,4 @@ $(function(){
 		}
 	});
 });	
+
