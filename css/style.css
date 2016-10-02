@@ -2595,9 +2595,9 @@ blockquote .blockquote-footer{
 		left: -13px;
 	}
 	.modal-search .close{
-		font-size: 40px;
-		font-weight: normal;
-		line-height: 61px;
+		font-size: 44px;	
+		line-height: 48px;
+		margin-top: 5px;
 	}
 	.modal-search .navbar-form {
     	padding: 8px 15px;
