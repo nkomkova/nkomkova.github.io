@@ -1,6 +1,6 @@
 $(function(){
-
-	$('#form-search').on('click', function(){
+	
+	$('.form-control-search').focusin(function(){
 		$('.enter').css('display', 'none');
 		$('.sl').css('display', 'none');
 		$('.navbar-registration').css('display', 'none');		
@@ -10,6 +10,13 @@ $(function(){
 			$('.form-control-search').css('marginLeft', 5 + 'px');
 		}
 	});
+	$('.form-control-search').focusout(function(){
+		$('.enter').css('display', 'inline');
+		$('.sl').css('display', 'inline');
+		$('.navbar-registration').css('display', 'block');		
+		$('.form-control-search').css('width', 87 + 'px');		
+	});
+	
 
 	$('#carousel').carousel({
 		interval: 4000
