@@ -1076,6 +1076,12 @@ footer{
 	.section-table {
 		width: 290px;
 	}
+	.contact-item{
+		font-size: 18px;
+	}
+	.contact-item a {
+		font-size: 14px;
+	}
 	.modal-body h4 {
 		font-size: 24px;
 	}	
