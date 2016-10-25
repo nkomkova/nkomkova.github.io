@@ -197,7 +197,7 @@
 		// the minimum number of items to show. 
 		// when we resize the window, this will make sure minItems are always shown 
 		// (unless of course minItems is higher than the total number of elements)
-		minItems : 1,
+		minItems : 3,
 		// index of the current item (left most item of the carousel)
 		start : 0,
 		// click item callback
@@ -371,7 +371,7 @@
 			var self = this;
 
 			// add navigation elements
-			this.$navigation = $( '<nav><span class="elastislide-prev">Previous</span><span class="elastislide-next">Next</span></nav>' )
+			this.$navigation = $( '<nav><span class="elastislide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></span><span class="elastislide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></span></nav>' )
 				.appendTo( this.$wrapper );
 
 
@@ -523,7 +523,7 @@
 			}
 			else {
 
-				( dir === 'next' ) ? this.$navNext.hide() : this.$navPrev.hide();
+				( dir === 'next' ) ? this.$navNext.show() : this.$navPrev.show();
 
 			}
 			

@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ASGARDIA - THE SPACE NATION</title>
-    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,700" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,700" rel="stylesheet">    
+    <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="css/style.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 10]>
+      <style type="text/css">
+        .welcome-block .welcome{  
+          border-width: 0px;
+          border-image: none;
+        }
+        .biography{
+          border-width: 0px;
+          border-image: none;
+        }
+        .contacts{
+          border-width: 0px;
+          border-image: none;
+        }
+      </style>
     <![endif]-->
   </head>
   <body>
@@ -30,8 +46,8 @@
                     <li><a href="#">Privacy policy</a><img src="images/bwb.png" alt=""></li>
                   </ul>                
                 </li>
-                <li class="active"><a href="#">home</a></li> 
-                <li><a href="#">news</a></li>
+                <li class="active"><a href="index.html">home</a></li> 
+                <li><a href="news.html">news</a></li>
                 <li><a href="#">the concept</a></li>
                 <li><a href="#">technology</a></li>
                 <li><a href="#">cityzenship</a></li>
@@ -49,12 +65,12 @@
                   </ul>
                 </li>
                 <li class="search dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search menu-icons"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span></a>
                   <form class="search-form navbar-form dropdown-menu">
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Search">
                     </div>
-                    <button type="submit" class="search-btn btn btn-default"><span class="glyphicon glyphicon-search menu-icons"></span></button>
+                    <button type="submit" class="search-btn btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                   </form>                
                 </li>
               </ul>
@@ -71,8 +87,8 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
                   <ul class="dropdown-menu">
-                    <li class="active"><img src="images/bwt.png" alt=""><a href="#">home</a></li> 
-                    <li><a href="#">news</a></li>
+                    <li class="active"><img src="images/bwt.png" alt=""><a href="index.html">home</a></li> 
+                    <li><a href="news.html">news</a></li>
                     <li><a href="#">the concept</a></li>
                     <li><a href="#">technology</a></li>
                     <li><a href="#">cityzenship</a></li>
@@ -97,12 +113,12 @@
                 </ul>
               </li>
               <li class="search dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search menu-icons"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span></a>
                 <form class="search-form navbar-form dropdown-menu">
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                   </div>
-                  <button type="submit" class="search-btn btn btn-default"><span class="glyphicon glyphicon-search menu-icons"></span></button>
+                  <button type="submit" class="search-btn btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                 </form>                
               </li>
             </ul>          
@@ -218,11 +234,11 @@
               <div class="form-group">
                 <label for="modalJoinCountry">Select your country:</label>
                 <select class="form-control" id="modalJoinCountry">
-                  <option>Russian</option>
-                  <option>English</option>
-                  <option>French</option>
-                  <option>German</option>
-                  <option>Italian</option>
+                  <option>Russia</option>
+                  <option>England</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Italy</option>
                 </select>
               </div>  
               <div class="form-group">
@@ -262,19 +278,19 @@
         <div class="top-short-news">
           <div class="row">
             <div class="col-sm-4">
-              <span>&ensp;<span class="top-news-date">Dec 24:</span> A press conference&ensp;</span><br>
-              <span>&ensp;in Vienna. Accreditation&ensp;</span><br>
-              <span>&ensp;for journalists&ensp;</span>
+              <a href="#"><span>&ensp;<span class="top-news-date">Dec 24:</span> A press conference&ensp;</span><br>
+                            <span>&ensp;in Vienna. Accreditation&ensp;</span><br>
+                            <span>&ensp;for journalists&ensp;</span></a>
             </div>
             <div class="col-sm-4 interval-top20">
-              <span>&ensp;<span class="top-news-date">Today:</span> 16 October, 300,000&ensp;</span><br>
-              <span>&ensp;participants have&ensp;</span><br>
-              <span>&ensp;registered on our website&ensp;</span>
+              <a href="#"><span>&ensp;<span class="top-news-date">Today:</span> 16 October, 300,000&ensp;</span><br>
+                            <span>&ensp;participants have&ensp;</span><br>
+                            <span>&ensp;registered on our website&ensp;</span></a>
             </div>
             <div class="col-sm-4 interval-top20">
-              <span>&ensp;<span class="top-news-date">Nov 12:</span> The largest number&ensp;</span><br>
-              <span>&ensp;of registrations&ensp;</span><br>
-              <span>&ensp;from China&ensp;</span>
+              <a href="#"><span>&ensp;<span class="top-news-date">Nov 12:</span> The largest number&ensp;</span><br>
+                            <span>&ensp;of registrations&ensp;</span><br>
+                            <span>&ensp;from China&ensp;</span></a>
             </div>
           </div>
           <p><a href="#" class="news-link">All short news</a></p>
@@ -323,9 +339,9 @@
                 </div>
                 <div class="col-sm-4 interval-top20">
                   <div class="pub-box">
-                    <a href="#"><img src="images/img3.jpg" alt=""></a>
+                    <a href="article.html"><img src="images/img3.jpg" alt=""></a>
                     <div class="pub-block">
-                      <p class="pub-block-text"><span>Oct 13:</span> <a href="#">Plans for first ever Space nation "Asgardia" announced today</a></p>
+                      <p class="pub-block-text"><span>Oct 13:</span> <a href="article.html">Plans for first ever Space nation "Asgardia" announced today</a></p>
                     </div>
                   </div>  
                 </div>
@@ -567,12 +583,20 @@
           <div class="row">
             <div class="col-sm-6 contact-item contact-item-name">Relations:</div>
             <div class="col-sm-6 contact-item"><a href="mailto:founder@asgardia.space">founder@asgardia.space</a></div>
+          </div>
+          <div class="row">  
             <div class="col-sm-6 contact-item contact-item-name">Media:</div>
             <div class="col-sm-6 contact-item"><a href="mailto:media@asgardia.space">media@asgardia.space</a></div>
+          </div>
+          <div class="row">   
             <div class="col-sm-6 contact-item contact-item-name">Citizenship:</div>
             <div class="col-sm-6 contact-item"><a href="mailto:citizens@asgardia.space">citizens@asgardia.space</a></div>
+          </div>
+          <div class="row">   
             <div class="col-sm-6 contact-item contact-item-name">Website:</div>
             <div class="col-sm-6 contact-item"><a href="mailto:support@asgardia.space">support@asgardia.space</a></div>
+          </div>
+          <div class="row">   
             <div class="col-sm-6 contact-item contact-item-name">Phone:</div>
             <div class="col-sm-6 contact-item"><a href="tel:+436642309614">+43 664 230 9614</a></div>
           </div>
@@ -589,6 +613,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/placeholders.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
