@@ -1314,7 +1314,7 @@ footer .btn{
     padding: 12px 15px;
 }
 .phone{
-    color: #000;
+    color: #000 !important;
     font-size: 15px;
     font-family: 'GothamProBold';
 }
