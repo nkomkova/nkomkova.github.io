@@ -1743,6 +1743,10 @@ footer .socsite img{
     .light-gray .boxes-more{
         margin-bottom: 60px;
     }
+    .scrollup{
+        bottom: 20px;
+        right: 20px;
+    }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -1774,11 +1778,7 @@ footer .socsite img{
     .order-ok .light20,
     .order .light20{
         font-size: 15px;
-    }
-    .scrollup{
-        bottom: 20px;
-        right: 20px;
-    }
+    }    
     .main-content .light20{
         font-size: 15px;
     }
