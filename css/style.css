@@ -2916,8 +2916,8 @@ footer{
 @media only screen and (max-width: 767px) and (min-width: 480px) {
 }
 
-	/* Extra Small Devices, Phones (479-320) */
-	@media only screen and (max-width: 479px) and (min-width: 320px) {
+	/* Extra Small Devices, Phones (479<) */
+	@media only screen and (max-width: 479px) {
 		.rg-thumbs{
 			display: none;
 		}
@@ -2932,5 +2932,9 @@ footer{
 		.rg-image-nav a.rg-image-nav-prev .fa,
 		.rg-image-nav a.rg-image-nav-next .fa{
 			top:37%;
+		}
+		.charity-content-top h1{
+			font-size: 20px;
+			line-height: 30px;
 		}
 	}
