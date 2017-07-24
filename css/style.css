@@ -854,6 +854,10 @@ h4{
 .home-page .sidebar-block{
 	max-width: 350px;
 }
+.section4-mobile .sidebar-library .section-link{
+	line-height: 15px;
+	text-align: right;
+}
 
 /*------------------------------------------------------------section5--------*/
 .section5 {
