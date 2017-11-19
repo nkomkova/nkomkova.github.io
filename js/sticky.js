@@ -1,6 +1,6 @@
 $(document).ready(function(){
   if ( $(window).width() > 991 ) {
-Array.prototype.slice.call(document.querySelectorAll('#left-sidebar, #right-sidebar')).forEach(function(a) {  // селекторы блоков, которые будут фиксироваться. Может быть как один блок, так два и более
+Array.prototype.slice.call(document.querySelectorAll('.left-sidebar-wrap, .right-sidebar-wrap')).forEach(function(a) {  // селекторы блоков, которые будут фиксироваться. Может быть как один блок, так два и более
 var b = null, P = 0;
 window.addEventListener('scroll', Ascroll, false);
 document.body.addEventListener('scroll', Ascroll, false);
@@ -24,7 +24,7 @@ function Ascroll() {
     a.style.border = '0';
   }
   var Ra = a.getBoundingClientRect(),
-      R = Math.round(Ra.top + b.getBoundingClientRect().height - document.querySelector('#content').getBoundingClientRect().bottom + 40);
+      R = Math.round(Ra.top + b.getBoundingClientRect().height - document.querySelector('.main-content-wrap').getBoundingClientRect().bottom + 40);
   if ((Ra.top - P) <= 0) {
     if ((Ra.top - P) <= R) {
       b.className = 'stop';
