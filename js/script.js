@@ -17,18 +17,45 @@ $(function(){
 
 });
 
-var nextPages = [
-  'article1',
-  'article2',
-  'article3',
-];
+/*-------,бесконечный скролл ------*/
 
-$('.article-container').infiniteScroll({
-  path: function() {
-    return nextPages[ this.loadCount ] + '.html';
-  },
-  append: '.post',
-  elementScroll: false,
-  loadOnScroll: true,
-});
+// var nextPages = [
+//   'article1',
+//   'article2',
+//   'article3',
+// ];
+
+// $('.article-container').infiniteScroll({
+//   path: function() {
+//     return nextPages[ this.loadCount ] + '.html';
+//   },
+//   append: '.post',
+//   elementScroll: false,
+//   loadOnScroll: true,
+// });
+
+/*-------галерея ------*/
+
+// $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         768:{
+//             items:2
+//         },
+//         992:{
+//             items:3
+//         },
+//         1200:{
+//             items:4
+//         },
+//         1307:{
+//             items:5
+//         }
+//     }
+// })
 
