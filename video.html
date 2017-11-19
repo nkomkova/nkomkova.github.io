@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,12 +21,12 @@
   </head>
   <body>
     <header>
-      <div class="promo-top hidden-xs">
-        <img src="images/banners/b2.jpg" alt="">
-      </div>
-      <div class="header-wrap">
-        <div class="header-wrap-top hidden-xs">
-          <div class="container">
+      <div class="container">
+        <div class="promo-top hidden-xs">
+          <img src="images/banners/b2.jpg" alt="">
+        </div>
+        <div class="header-wrap">
+          <div class="header-wrap-top hidden-xs">
             <div class="row">
               <div class="col-md-2 col-lg-3">
                 <div class="header-logo-wrap">
@@ -38,14 +39,14 @@
                 <div class="top-menu-wrap">
                   <ul class="top-menu">
                     <li class="top-menu-item"><a href="#">top <span>НОВОСТЕЙ</span></a></li>
-                    <li class="top-menu-item"><a href="#">top <span>ФОТО</a></li>
+                    <li class="top-menu-item"><a href="#">top <span>ФОТО</span></a></li>
                     <li class="top-menu-item"><a href="#">top <span>ВИДЕО</span></a></li>
                     <li class="top-menu-item"><a href="#">top <span>ЦИТАТ</span></a></li>
                     <li class="top-menu-item"><a href="#">top <span>КУРЬЕЗОВ</span></a></li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-4 col-lg-3">
+              <div class="col-md-4 col-lg-3 hidden-xs hidden-sm">
                 <div class="widgets">
                   <div class="widgets-item">
                     <div class="widgets-item-value">
@@ -88,9 +89,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="header-wrap-bottom">
-          <div class="container">
+          <div class="header-wrap-bottom">
             <div class="desctop-menu hidden-xs">
               <nav class="navbar">
                 <div class="desctop-menu-wrap">
@@ -104,21 +103,20 @@
                         <li><a href="#">обратная связь</a></li>
                       </ul>
                     </li>
-                    <li class="menu-divider"><a href="#">главная</a></li>
+                    <li class="menu-divider"><a href="index.html">главная</a></li>
                     <li><a href="#">политика</a></li>
                     <li><a href="#">происшествия</a></li>
                     <li class="menu-divider"><a href="article1.html">шоу-бизнес</a></li>
                     <li class="menu-divider"><a href="#">спорт</a></li>
                     <li class="menu-divider"><a href="#">здоровье</a></li>
-                    <li class="menu-divider active"><a href="photo.html">калейдоскоп</a></li>
+                    <li class="menu-divider"><a href="photo.html">калейдоскоп</a></li>
                     <li class="dropdown menu-divider">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">еще</a>
                       <ul class="dropdown-menu dropdown-menu-more">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="quotes.html">Цитаты</a></li>
+                        <li class="active"><a href="video.html">Видео</a></li>
+                        <li><a href="rubric.html">Рубрики</a></li>
+                        <li><a href="404.html">404</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -170,21 +168,20 @@
                           </div>
                         </div>
                         <ul>
-                          <li><a href="#">главная</a></li>
+                          <li><a href="index.html">главная</a></li>
                           <li><a href="#">политика</a></li>
                           <li><a href="#">происшествия</a></li>
                           <li><a href="article1.html">шоу-бизнес</a></li>
                           <li><a href="#">спорт</a></li>
                           <li><a href="#">здоровье</a></li>
-                          <li class="active"><a href="photo.html">калейдоскоп</a></li>
+                          <li><a href="photo.html">калейдоскоп</a></li>
                           <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">еще <span class="caret"></span></a>
                             <ul class="dropdown-menu dropdown-menu-more">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li><a href="#">Separated link</a></li>
-                              <li><a href="#">One more separated link</a></li>
+                              <li><a href="quotes.html">Цитаты</a></li>
+                              <li class="active"><a href="video.html">Видео</a></li>
+                              <li><a href="rubric.html">Рубрики</a></li>
+                              <li><a href="404.html">404</a></li>
                             </ul>
                           </li>
                           <li><a href="about.html">о проекте</a></li>
@@ -215,9 +212,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="promo-top promo-top-mobile visible-xs-block">
-        <img src="images/banners/mob-banner.jpg" alt="">
+        <div class="promo-top promo-top-mobile visible-xs-block">
+          <img src="images/banners/mob-banner.jpg" alt="">
+        </div>
       </div>
     </header>
 
@@ -225,8 +222,8 @@
       <div class="container">
         <div class="article-container">
           <article class="post">
-            <div class="row">
-              <div class="col-md-3 hidden-xs hidden-sm">
+            <div class="clearfix">
+              <div class="left-sidebar-wrap">
                 <div class="left-sidebar">
                   <div class="top-news-wrap">
                     <div class="top-news-title">
@@ -272,7 +269,7 @@
                   </div>                
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="main-content-wrap">
                 <div class="article-wrap clearfix">
                   <div class="tag-wrap">
                     <div class="tag-name">
@@ -283,8 +280,9 @@
                     </div>
                   </div>              
                   <h2>Малышка на стадионе стащила попкорн у принца Гарри</h2>
-                  <div class="socsite-sharing hidden-xs" style="margin: -10px 0 20px;">
-                    <img src="images/socsite.jpg" alt="">
+                  <div class="socsite-sharing hidden-xs" style="margin: 0px 0 20px;">
+                    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+                    <div class="addthis_inline_follow_toolbox"></div>
                   </div>
                   <div class="article-subtitle">
                     Сначала Гарри не замечал уловок ребенка, но потом начал ей подыгрывать и подшучивать над ней. Видео опубликовано на сайте YouTube пользователем News Stapleapps
@@ -334,7 +332,8 @@
                   </div>
                 </div>
                 <div class="socsite-sharing" style="margin: 15px 0;">
-                  <img src="images/socsite.jpg" alt="">
+                  <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+                    <div class="addthis_inline_follow_toolbox"></div>
                 </div>
                 <div class="other-news-wrap">
                   <div class="row">
@@ -365,12 +364,12 @@
                   <img src="images/comments1.jpg" alt="">
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="right-sidebar-wrap">
                 <div class="right-sidebar">
                   <div class="promo-sidebar hidden-xs hidden-sm">
                     <img src="images/banners/b3.jpg" alt="">
                   </div>
-                  <div class="promo-sidebar">
+                  <div class="promo-sidebar visible-xs-block visible-sm-block">
                     <img src="images/banners/b7.jpg" alt="">
                   </div>
                   <div class="sidebar-top-wrap">
@@ -516,7 +515,7 @@
                   <div class="promo-sidebar hidden-xs hidden-sm">
                     <img src="images/banners/b5.jpg" alt="">
                   </div>
-                  <div class="promo-sidebar">
+                  <div class="promo-sidebar visible-xs-block visible-sm-block">
                     <img src="images/banners/b7.jpg" alt="">
                   </div>
                   <div class="top-news-wrap hidden-xs hidden-sm">
@@ -563,7 +562,7 @@
       <div class="container">
         <div class="footer-best-wrap hidden-xs">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-4">
               <div class="footer-best-item">
                 
                 <div class="footer-best-video">
@@ -686,7 +685,7 @@
 
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
               <div class="footer-best-item">
                 
                 <div class="footer-best-news">
@@ -809,7 +808,7 @@
 
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
               <div class="footer-best-item">
                 
                 <div class="footer-best-photo">
@@ -933,7 +932,8 @@
               </div>
             </div>
           </div>
-        </div>
+          <div class="footer-devider"></div>
+        </div>        
         <div class="footer-wrap">
           <div class="row">
             <div class="col-md-3">
@@ -957,7 +957,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="socsite">
+              <div class="socsite pull-right">
                 <div class="socsite-item">
                   <a href="#">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -984,7 +984,8 @@
                   </a>
                 </div>
               </div>
-              <div class="metrics">
+              <div class="clearfix"></div>
+              <div class="metrics pull-right">
                 <div class="metrics-item">
                   <a href="#"><img src="images/footer/rambler.jpg" alt=""></a>
                 </div>
@@ -995,6 +996,7 @@
                   <a href="#"><img src="images/footer/liveinternet.jpg" alt=""></a>
                 </div>
               </div>
+              <div class="clearfix"></div>
             </div> 
           </div>
         </div>
@@ -1006,6 +1008,17 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/infinite-scroll.pkgd.min.js"></script>
     <script src="js/placeholders.js"></script>
+    <script src="js/sticky.js"></script>    
     <script src="js/script.js"></script>
+    <script>
+      $('.article-container').infiniteScroll({
+        path: 'article{{#}}.html',
+        append: '.post',
+        elementScroll: false,
+        loadOnScroll: true,
+      });
+    </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5828a3cfc31bf4dc"></script> 
   </body>
 </html
