@@ -3072,6 +3072,18 @@ position: absolute;
 		font-size: 14px;
 		line-height: 18px;
 	}	
+	.dropdown-rubric{
+		margin-right: -58px;
+	}
+	.quotes-wrap .dropdown-rubric::before{
+		right: 72px;
+	}
+	.dropdown-date{
+		margin-right: -114px;
+	}
+	.quotes-wrap .dropdown-date::before{
+		right: 127px;
+	}
 }
 
 /* Mobile (329 > ) */
