@@ -458,7 +458,8 @@
                     <span class="caret"></span>
                   </button>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-date">
-                    <div id="datepicker"></div>            
+                    <!-- <div id="datepicker"></div>   -->
+                    <div id="calendar"></div>
                   </div>
                 </div>
               </div>
@@ -1843,6 +1844,7 @@
     <script src="js/placeholders.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/sticky.js"></script>
+    <script src="js/calendar.js"></script>
     <!-- <script src="js/bootstrap-datepicker.min.js"></script> -->
     <script src="js/script.js"></script>
     <script>
@@ -1868,6 +1870,15 @@
           }
         }
       })
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('#calendar').calendarLite({
+          showYear: true,
+          prevArrow: '<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>',
+          nextArrow: '<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>'
+        });
+      });
     </script>
     
     
