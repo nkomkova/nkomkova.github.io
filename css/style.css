@@ -860,6 +860,10 @@ a:focus{
 	font-family: 'proxima_nova_ltsemibold', 'Open Sans', sans-serif;
 	font-weight: 600;
 }
+.supertop-news-title span{
+	color: #e22041;
+	text-transform: uppercase;
+}
 .supertop-news-text{
 	padding: 10px 15px 0;
 }
@@ -869,14 +873,14 @@ a:focus{
 .supertop-news-about{
 	font-size: 13px;
 	line-height: 18px;
-	font-family: 'proxima_nova_ltlight', 'Open Sans', sans-serif;
-	font-weight: 300;
-	color: #505050;
+	font-weight: 500;
+	color: #202020;
 	border-bottom: 1px solid #dcdcdc;
 	padding-bottom: 7px;
 	height: 79px;
 	overflow: hidden;
 }
+
 .group-icons-tags{
 	color: #828282;
 	font-size: 9px;
@@ -909,6 +913,7 @@ a:focus{
 .top-video-link{
 	display: block;
 	text-decoration: none;
+	cursor: pointer;
 }
 .top-video-link:hover{
 	text-decoration: none;
@@ -1073,12 +1078,15 @@ a:focus{
 	color: #303030;
 	padding-bottom: 5px;
 }
+.section-topnews-title span{
+	color: #e22041;
+	text-transform: uppercase;
+}
 .section-topnews-textmore{
 	font-size: 14px;
 	line-height: 18px;
-	font-family: 'proxima_nova_ltlight', 'Open Sans', sans-serif;
-	font-weight: 300;
-	color: #303030;
+	font-weight: 500;
+	color: #202020;
 	padding-bottom: 5px;
 }
 .section-topnews-textabout{
@@ -1943,6 +1951,82 @@ video{
 	position: relative;
 	top: 0;
 }
+
+/*------------------------------ #calendar -----------------------*/
+.table {
+  font-size: 16px;
+  background-color: #f4f4f4;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+td {
+  text-align: center;
+  padding:1px !important;
+  border-top: none !important;
+}
+/* Current date */
+.table .curr { 
+	background-color: #f4f4f4;	
+}
+.table .curr a{
+	border: 1px solid #e22545;
+	border-radius: 50%;
+	margin-top: -1px;
+}
+
+/* Weekend  */
+.table .weekend { background-color: #f4f4f4;}
+
+/* Cell link */
+.table th{
+	font-weight: normal;
+	background: #e64a65;
+	border-top: none !important;
+}
+.table td a {
+	text-decoration: none; 
+	color: #303030;
+	font-size: 16px; 
+	line-height: 34px;
+	height: 36px;
+	width: 36px;
+	text-align: center;
+	display: block;
+}
+
+/* Cell link hover */
+.table td a:hover {
+	border: 1px solid #e22545;
+	border-radius: 50%;
+	margin-top: -1px;
+}
+
+/* Name of the selected month (at the top) */
+.monthName {
+	padding: 10px 15px;
+	background: #28324e;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	text-transform: uppercase;
+	width: 290px !important;
+	text-align: center;
+}
+
+/* Next-Prev arrows */
+.monthName a {
+	color: #777e8f;
+	font-size: 25px;
+	line-height: 30px;
+}
+.monthName a:hover{
+	text-decoration: none;
+}
+.next {float:right;}
+.prev {float:left;}
+
+pre {background-color: #f4f4f4; font-size:16px;}
 
 /*=============================== SIDEBAR ===============================*/
 
@@ -2939,7 +3023,7 @@ position: absolute;
   	font-size: 13px;
   }
   .main-content-wrap.main-rubric-wrap {
-  	width: 300px;
+  	width: 100%;
   	margin: 0 auto;
   }
   .main-rubric-wrap .section-topnews-item {
@@ -2959,7 +3043,7 @@ position: absolute;
   	padding-bottom: 5px;
   }
   .sidebar-rubric-mob {
-  	width: 300px;
+  	width: 100%;
   	margin: 0 auto;
   }
   .dropdown-rubric-title{
