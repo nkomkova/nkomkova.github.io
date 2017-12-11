@@ -3139,11 +3139,23 @@ position: absolute;
 	.quotes-wrap .dropdown-rubric::before{
 		right: 72px;
 	}
+	.dropdown-rubric.dropdown-rubric-search{
+		margin-right: 0px;
+	}
+	.quotes-wrap .dropdown-rubric.dropdown-rubric-search::before{
+		right: 14px;
+	}
 	.dropdown-date{
 		margin-right: -114px;
 	}
 	.quotes-wrap .dropdown-date::before{
 		right: 127px;
+	}
+	.dropdown-date.dropdown-date-search{
+		margin-right: -57px;
+	}
+	.quotes-wrap .dropdown-date.dropdown-date-search::before{
+		right: 71px;
 	}
 	.search-item .section-topnews-title{
 		font-size: 16px;
